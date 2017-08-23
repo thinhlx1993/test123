@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sub Categories</title>
+    <link rel="stylesheet" href="css/bstyle3.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angular-cookies.js"></script>
+    <script type="text/javascript" src="js/newsfeed3.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    /* ------------------
+        Animationload
+    --------------------*/
+    .animationload {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        z-index: 999999;
+    }
+
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -100px 0 0 -100px;
+        width: 200px;
+        height: 200px;
+        background-image: url("loading-gear.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body data-ng-controller="newFeedCtrl" data-ng-app="deniApp">
+<!-- Load page -->
+<div class="animationload" style="display: block;" id="load">
+    <div class="loader"></div>
+</div>
+<!-- End load page -->
+<div class="container-fluid bg-home">
+    <!--START content_feed_2-->
+    <div class="content_feed_2">
+        <div class="col-xs-12">
+            <span class="col-xs-1 content_feed_3_back" data-ng-click="back()"></span>
+            <h1>DEIN NEWSFEED</h1>
+            <span class="col-xs-1 content_feed_2_close" data-ng-click="back_1()"></span>
+        </div>
+        <div class="row"></div>
+        <div class="newfeed_2_bn">
+            <div class="newfeed_2_bn_left"></div>
+            <div class="newfeed_2_bn_right"></div>
+        </div>
+
+        <div class="newfeed_2_top">
+            <p>
+                Werde speziﬁscher....
+            </p>
+        </div>
+
+        <div class="newfeed_line"></div>
+
+    </div>
+    <!--END content_feed_2-->
+
+    <div class="content_link">
+        <div class="row" data-ng-repeat="(keyCat,cat) in show">
+            <h2 class="cate-chil">{{cat.cat_name}}</h2>
+            <button class="btn cate" data-ng-repeat="(keySub, subSategory) in cat.sub_category"
+                    data-ng-click="checkClick(keyCat,keySub,cat._id)" id="sub_{{keyCat}}_{{keySub}}"
+                    ng-class="subSategory.checked == 1 ? 'cate-active' : '' ">
+                {{subSategory.sub_cat_name}}
+            </button>
+        </div>
+    </div>
+    <!--BEGIN NEWFEDD STARTED-->
+    <div class="newfeed_starten newfeed_starten_btn" data-ng-click="newfeed_starten_btn()">
+        <h1>Newsfeed starten
+        </h1>
+    </div>
+    <!--END NEWFEED STARTED-->
+
+
+</div>
+
+<div class="" id="footer">
+    <div id="exTab1" class="col-xs-12">
+        <ul class="nav nav-pills">
+            <li class="active">
+                <a href="" data-toggle="tab"><span class="fa fa-th-large"></span>
+                    <p style="text-align: center;vertical-align: middle">News</p>
+                </a>
+            </li>
+            <li>
+                <a href="" data-toggle="tab"><span class="fa fa-graduation-cap coaching"></span>
+                    <p style="text-align: center;vertical-align: middle">Coachings</p>
+                </a>
+            </li>
+            <li>
+                <a href="" data-toggle="tab"><span class="fa fa-comment-o"></span>
+                    <p style="text-align: center;vertical-align: middle">Zenzai</p>
+                </a>
+            </li>
+            <li>
+                <a href="" data-toggle="tab"><span class="fa  fa-shopping-cart"></span>
+                    <p style="text-align: center;vertical-align: middle">Shop</p>
+                </a>
+            </li>
+            <li>
+                <a href="" data-toggle="tab"><span class="fa fa-user-o"></span>
+                    <p style="text-align: center;vertical-align: middle">Profile</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

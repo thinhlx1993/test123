@@ -1,0 +1,150 @@
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #33d5fe; }
+
+.footer_content {
+  padding: 10px 15px; }
+
+#footer {
+  border-top: 1px solid #fff;
+  bottom: 0px !important;
+  height: 130px;
+  position: fixed;
+  background: #fff;
+  /*margin-left: -15px;*/
+  width: 100%; }
+
+.circle h1 {
+  font-family: monsterBold;
+  font-size: 45px;
+  padding-left: 80px;
+  padding-top: 10px; }
+
+@media only screen and (min-device-width: 1366px) and (orientation: landscape) {
+  #footer {
+    margin-left: -15px;
+    width: 100%; } }
+@media (max-width: 479px) {
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; } }
+.footer_content h1 {
+  font-size: 35px;
+  font-family: monsterBold;
+  padding-top: 15px;
+  margin-right: 30px; }
+
+@font-face {
+  font-family: monsterBlack;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+@font-face {
+  font-family: monsterRegular;
+  src: url(../fonts/Montserrat-Regular.ttf); }
+@font-face {
+  font-family: monsterLight;
+  src: url(../fonts/Montserrat-Light.ttf); }
+@font-face {
+  font-family: monsterBold;
+  src: url(../fonts/Montserrat-Bold.ttf); }
+.bg-home {
+  position: relative;
+  width: 100%;
+  margin-top: 20px; }
+  .bg-home img {
+    width: 100%;
+    height: 100%; }
+  .bg-home .content_feed_6_back {
+    position: absolute;
+    text-align: center; }
+  .bg-home .img {
+    display: block;
+    height: auto;
+    width: 100%; }
+
+.img_pro {
+  position: relative;
+  width: 100%; }
+
+.image_config > img {
+  display: block;
+  height: auto;
+  width: 100%; }
+.image_config > h1 {
+  margin: 0 auto;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  color: #0123a9;
+  font-weight: bold;
+  vertical-align: middle;
+  font-family: monsterBold;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.47); }
+.image_config > span {
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  color: red;
+  vertical-align: middle; }
+
+.btn_config {
+  position: absolute;
+  right: 2%;
+  bottom: 8%; }
+  .btn_config .btn_small {
+    width: 30px;
+    height: 30px;
+    background: #33d5fe;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -10px;
+    margin-left: 38px; }
+  .btn_config .btn_lag {
+    width: 60px;
+    height: 60px;
+    background: rgba(254, 245, 238, 0.47);
+    border-radius: 50%;
+    z-index: 0;
+    margin-top: -30px; }
+  .btn_config > span {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding: 14px; }
+
+.view_num {
+  margin: 25px 0;
+  padding-left: 30px; }
+  .view_num span {
+    font-size: 16px;
+    color: #a2a6c6;
+    padding: 20px; }
+  .view_num span p {
+    font-size: 16px;
+    font-family: monsterRegular;
+    color: #a2a6c6;
+    display: initial; }
+
+.content_page_6 {
+  margin: 25px 15px;
+  padding: 40px; }
+  .content_page_6 h1 {
+    font-family: monsterBold;
+    color: #02145a;
+    font-weight: bold;
+    font-size: 16px; }
+  .content_page_6 > a {
+    color: #a2a6c6 !important;
+    font-family: monsterBold;
+    font-size: 16px; }
+  .content_page_6 p {
+    font-family: monsterLight;
+    color: #02145a;
+    font-weight: bold;
+    font-size: 16px; }
+
+/*# sourceMappingURL=bstyle6.css.map */

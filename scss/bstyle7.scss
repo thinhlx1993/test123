@@ -1,0 +1,123 @@
+@import "footer_6.scss";
+@import "fontface.scss";
+
+.bg-home {
+    position: relative;
+    width: 100%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .content_feed_6_back {
+        position: absolute;
+        text-align: center;
+    }
+    .img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+}
+
+.img_pro {
+    position: relative;
+    width: 100%;
+}
+
+.image_config {
+    > img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    > h1 {
+        font-size: 50px;
+        position: absolute;
+        text-align: center;
+        color: #0123a9;;
+        font-weight: bold;
+        vertical-align: middle;
+        font-family: monsterBold;
+        padding-top: 70px;
+    }
+    > span {
+        font-size: 100px;
+        font-weight: bold;
+        position: absolute;
+        text-align: center;
+        color: #02145a;
+        vertical-align: middle;
+        padding-top: 70px;
+    }
+
+}
+
+.btn_config {
+    position: absolute;
+    right: 2%;
+    bottom: 8%;
+    .btn_small {
+        width: 80px;
+        height: 80px;
+        background: #33d5fe;
+        border-radius: 40px;
+        z-index: 1;
+        margin-top: -123px;
+        margin-left: 38px;
+        > span {
+            font-size: 50px;
+            text-align: center;
+            color: #fff;
+            padding: 14px;
+        }
+    }
+    .btn_lag {
+        width: 160px;
+        height: 160px;
+        background: rgba(254, 245, 238, 0.47);
+        border-radius: 80px;
+        z-index: 0;
+        margin-top: -66px;
+    }
+}
+
+.view_num {
+    margin: 25px 0;
+    padding-left: 30px;
+    span {
+        font-size: 40px;
+        color: #a2a6c6;
+        padding:20px;
+        p {
+            font-size: 40px;
+            font-family: monsterRegular;
+            color: #a2a6c6;
+            display: initial;
+        }
+    }
+}
+
+.content_page_6 {
+    margin: 25px 15px;
+    margin-bottom: 150px;
+    padding: 40px;
+    h1 {
+        font-family: monsterBold;
+        color: #02145a;
+        font-weight: bold;
+        font-size: 62px;
+    }
+    > a {
+        color: #a2a6c6 !important;
+        font-family: monsterRegular;
+        font-size: 40px;
+    }
+    p {
+        font-family: monsterLight;
+        color: #02145a;
+        font-weight: bold;
+        font-size: 33px;
+        padding-top: 30px;
+
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pre Articles</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angular-cookies.js"></script>
+    <script type="text/javascript" src="js/newsfeed6.js"></script>
+    <link rel="stylesheet" href="css/fontface.css">
+    <link rel="stylesheet" href="css/bstyle1.css">
+    <link rel="stylesheet" href="css/newpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body data-ng-controller="newsfeed6Ctrl" data-ng-app="newsFeedApp">
+<div class="body-wrap">
+    <div class="page_6 page_articles">
+        <div class="header">
+            <div class="container">
+                <div class="text-center title-page">
+                    <span class="back-page" data-ng-click="back()"></span>
+                    <h1>Gewicht & Ernahrung</h1>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="content-post">
+                    <div class="item-image row">
+                        <img data-ng-src="{{article.image}}" alt="">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-meta mstLight">
+                            <div class="meta-box item-clock">
+                                <i class="fa fa-clock-o"></i>
+                                <span class="date-time">{{article.datetime}}</span>
+                            </div>
+                            <div class="meta-box item-count-comment">
+                                <i class="fa fa-comment-o" data-ng-click="goToComment()"></i>
+                                <span class="count-comment">{{article.comments.length}}</span>
+                            </div>
+                            <div class="meta-box item-page">
+                                <i class="fa fa-bookmark-o"></i>
+                                <span class="count-page">{{article.favorites}}</span>
+                            </div>
+                        </div>
+                        <h3 class="item-title">{{article.title}}</h3>
+                        <div class="item-source" data-ng-click="goToUrl(article.url)">{{getDomain(article.url)}}</div>
+                        <div class="description">
+                            {{article.content}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="" id="footer">
+            <div class="container">
+                <div class="content-footer mstBold">
+                    <div class="title-tag pull-left">{{article.sub}}</div>
+                    <div class="number-page pull-right">{{article.position+1}}|{{article.articles}}</div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

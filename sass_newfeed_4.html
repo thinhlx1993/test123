@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pre Articles</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/fontface.css">
+    <link rel="stylesheet" href="css/bstyle1.css">
+    <link rel="stylesheet" href="css/newpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    /* ------------------
+        Animationload
+    --------------------*/
+    .animationload {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        z-index: 999999;
+    }
+
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -100px 0 0 -100px;
+        width: 200px;
+        height: 200px;
+        background-image: url("loading-gear.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body data-ng-controller="newFeed4" data-ng-app="deniApp">
+<!-- Load page -->
+<div class="animationload" style="display: block;" id="load">
+    <div class="loader"></div>
+</div>
+<!-- End load page -->
+<div class="body-wrap">
+    <div class="page_4" data-ng-controller="newFeed4" data-ng-app="deniApp">
+        <div class="header">
+            <div class="container">
+                <div class="text-center title-page">
+                    <h1>DEIN NEWSFEED</h1>
+                    <span class="title-page-icon fa fa-bookmark-o"></span>
+                </div>
+                <div class="btn-plus">
+                    <a href="" data-ng-click="back()">+</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <h3>Deine persönliche Themenwelt </h3>
+                <div class="content-cate">
+                    <div class="list-categories">
+                        <div ng-repeat="(key,value) in show" data-ng-click="articles(value._id,key)"
+                             data-ng-if=" ( key<2 && show.length >=2 ) || show.length < 2">
+                            <div class="item-cate">
+                                <div class="cate_1" color-this="background-color" data-color="key"></div>
+                                <img data-ng-src="{{value.image}}" alt="">
+                                <div class="count-post">{{value.articles}}</div>
+                                <div class="title-cate"><a href="">{{value.cat_name}}</a></div>
+                            </div>
+                        </div>
+                        <div class="last-item-cate">
+                            <div class="item-cate cate_3" ng-repeat="(key,value) in show"
+                                 data-ng-click="articles(value._id,key)"
+                                 data-ng-if="key >= 2">
+                                <div class="cate_1" color-this="background-color" data-color="key"></div>
+                                <img data-ng-src="{{value.image}}" alt="">
+                                <div class="title-cate"><a href="">{{value.cat_name}}</a></div>
+                                <div class="count-post">{{value.articles}}</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="" id="footer">
+            <div id="exTab1" class="col-xs-12">
+                <ul class="nav nav-pills">
+                    <li class="active">
+                        <a href="" data-toggle="tab"><span class="fa fa-th-large"></span>
+                            <p style="text-align: center;vertical-align: middle">News</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-toggle="tab"><span class="fa fa-graduation-cap coaching"></span>
+                            <p style="text-align: center;vertical-align: middle">Coachings</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-toggle="tab"><span class="fa fa-comment-o"></span>
+                            <p style="text-align: center;vertical-align: middle">Zenzai</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-toggle="tab"><span class="fa  fa-shopping-cart"></span>
+                            <p style="text-align: center;vertical-align: middle">Shop</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-toggle="tab"><span class="fa fa-user-o"></span>
+                            <p style="text-align: center;vertical-align: middle">Profile</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="libs/angular.min.js"></script>
+<script type="text/javascript" src="libs/angular-cookies.js"></script>
+<script type="text/javascript" src="libs/angular-color-this.min.js"></script>
+<script type="text/javascript" src="js/newsfeed4.js"></script>
+</body>
+</html>

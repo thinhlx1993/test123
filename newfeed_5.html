@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Articles</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          media="all">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+    <script type="text/javascript" src="js/slider.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style_5.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="db.js"></script>
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angular-cookies.js"></script>
+    <script type="text/javascript" src="js/deniNewFeed5.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="padding: 0 30px;" data-ng-controller="newFeed5" data-ng-app="deniApp">
+    <div class="content_feed_5">
+        <div class="header bg-home">
+            <div class="col-xs-12 title">
+                <span class="col-xs-1 content_feed_5_back fa fa-angle-left" data-ng-click="back_to_newfeed_4()"></span>
+                <h1 class="col-xs-offset-1 col-xs-8">GEWICHT & ERNAHRUNG</h1>
+                <span class="col-xs-1 icon_right fa fa-bookmark-o "></span>
+                <span class="col-xs-1 content_feed_2_close"></span>
+            </div>
+            <div class="row header_title">
+                <div class="col-xs-12 content_title">
+                    <span class="col-xs-4 title_1">Vegan</span>
+                    <span class="col-xs-6 title_2">Glutenfrei</span>
+                    <span class="col-xs-2 title_3">Nut</span>
+                </div>
+            </div>
+            <div class="row btn_config">
+                <a href="#">
+                    <div class="col-xs-12" style="">
+                        <div class="btn_lag"></div>
+                        <div class="btn_small">
+                            <img src="images/newfeed_5/buttom.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row content_config">
+                <div class="col-xs-12" ng-repeat="(keyArt,value) in preArticles.articles" data-ng-click="saveToNewFeed6(keyArt)" style="border-radius: 20px;padding-bottom: 30px;">
+                    <div class="thumbnail">
+                        <img data-ng-src="images/newfeed_4/{{value.image}}" alt="...">
+                        <div class="caption">
+                            <h1>{{value.title}}</h1>
+                            <p>{{value.content}}</p>
+                            <div class="row ">
+
+                                <span class="fa fa-clock-o col-xs-5"><p class="icon_content_5"> {{value.date}}</p></span>
+                                <span class="fa fa-comment-o col-xs-4"> <p class="icon_content_5">24</p> </span>
+                                <span class="fa fa-bookmark-o col-xs-3"> <p class="icon_content_5">125</p> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row content_config">
+                <div class="col-xs-12">
+                    <div class="thumbnail">
+                        &lt;!&ndash;<img src="images/newfeed_5/newfeed_3.png" alt="...">&ndash;&gt;
+                        <iframe src="https://www.youtube.com/embed/gyWUazuJBak" frameborder="0"
+                                allowfullscreen></iframe>
+                        <div class="caption">
+                            <span class="fa fa-clock-o col-xs-5"> 17.03.2018</span>
+                            <span class="fa fa-comment-o col-xs-4"> 24</span>
+                            <span class="fa fa-bookmark-o col-xs-3"> 125</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content_config">
+                <div class="col-xs-12">
+                    <div class="thumbnail">
+                        <img src="images/newfeed_5/newfeed_2.png" alt="...">
+                        <div class="caption" style="padding-bottom: 65px">
+                            <h1>Gastbeitrag von Johnny: Vietnamesisch...</h1>
+                            <p>Einge gute Word-Life-Balance ist offtenbar gar nicht so eninfach umxusetzen,Einge gute
+                                Word-Life-Balance ist offtenbar gar nicht so eninfach umxusetzen, Einge gute
+                                Word-Life-Balance ist offtenbar gar nicht so eninfach umxusetzen</p>
+                            <div class="row icon_content_5">
+                                font-size: 35px;
+                                font-family: monsterLight;
+                                color: #a2a6c6;
+                                <span class="fa fa-clock-o col-xs-5"> 17.03.2018</span>
+                                <span class="fa fa-comment-o col-xs-4"> 24</span>
+                                <span class="fa fa-bookmark-o col-xs-3"> 125</span>
+                                &lt;!&ndash;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content_config">
+                <div class="col-xs-12">
+                    <div class="thumbnail">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="images/newfeed_5/newfeed_5.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Media heading</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</div>
+</body>
+</html>

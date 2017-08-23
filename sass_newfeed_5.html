@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Articles</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          media="all">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+    <script type="text/javascript" src="js/slider.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bstyle5.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    /* ------------------
+        Animationload
+    --------------------*/
+    .animationload {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        z-index: 999999;
+    }
+
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -100px 0 0 -100px;
+        width: 200px;
+        height: 200px;
+        background-image: url("loading-gear.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body data-ng-controller="newsfeed5Ctrl" data-ng-app="newsFeedApp">
+<!-- Load page -->
+<div class="animationload" style="display: block;" id="load">
+    <div class="loader"></div>
+</div>
+<!-- End load page -->
+<div class="header">
+    <div class="row title">
+        <div class="col-xs-1" style="padding: 0">
+            <span class="fa fa-angle-left" data-ng-click="back()"></span>
+        </div>
+        <div class="col-xs-10" style="padding: 0">
+            <h1>{{articles.cat_name}}</h1>
+        </div>
+        <div class="col-xs-1" style="padding: 0">
+            <span class="icon_right fa fa-bookmark-o" data-ng-click="goToTavorites()"></span>
+        </div>
+    </div>
+    <div class="row header_title">
+        <div class="col-xs-4" data-ng-repeat="(key,value) in articles.subs">
+            <span data-ng-class="key == 0 ? 'title_name title_active' : 'title_3' ">{{value}}</span>
+        </div>
+    </div>
+    <div class="btn_config">
+        <a href="" data-ng-click="goToSet()">
+            <div class="btn_lag">
+                <div class="btn_small">
+                    <img src="images/newfeed_5/buttom.png" alt="">
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="row item" data-ng-repeat="(key,value) in articles.articles">
+        <div class="col-xs-12">
+            <img class="item-img" data-ng-src="{{value.image}}" alt="..."
+                 data-ng-click="seeArticle(key,value._id,articles.articles.length,articles.subs[0])">
+        </div>
+        <div class="col-xs-12">
+            <div class="caption">
+                <h2 data-ng-click="seeArticle(key,value._id,articles.articles.length,articles.subs[0])">
+                    {{value.title}}</h2>
+                <p>{{value.abstract}}</p>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="row info">
+                <div class="col-xs-6" style="padding-right: 5px">
+                    <span class="fa fa-clock-o col-xs-5"></span>
+                    <span class="detail">{{value.datetime}}</span>
+                </div>
+                <div class="col-xs-3" style="padding-right: 5px; padding-left: 5px;">
+                    <span class="fa fa-comment-o col-xs-5"
+                          data-ng-click="goToComment(key,value._id,articles.articles.length,articles.subs[0])"></span>
+                    <span class="detail">{{value.comments.length}}</span>
+                </div>
+                <div class="col-xs-3" style="padding-left: 5px;">
+                    <span class="fa fa-clock-o col-xs-5"></span>
+                    <span class="detail">{{value.favorites}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row item" ng-repeat="value in subCategory.articles">
+        <div class="col-xs-12">
+            <img class="item-img" src="images/image_8.png" alt="...">
+        </div>
+        <div class="col-xs-12">
+            <div class="caption">
+                <h2>5 Tipps sich selbst zum Sport z motivier...</h2>
+                <p>Einge gute Word-Life-Balance ist offtenbar gar nicht so eninfach umxusetzen,Einge gute
+                    Word-Life-Balance ist offtenbar gar nicht so eninfach umxusetzen, Einge gute
+                    Word-Life-Balance ist offtenbar gar nicht so eninfach umxusetzen</p>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="row info">
+                <div class="col-xs-6" style="padding-right: 5px">
+                    <span class="fa fa-clock-o col-xs-5"></span>
+                    <span class="detail">17.03.2018</span>
+                </div>
+                <div class="col-xs-3" style="padding-right: 5px; padding-left: 5px;">
+                    <span class="fa fa-comment-o col-xs-5"></span>
+                    <span class="detail">24</span>
+                </div>
+                <div class="col-xs-3" style="padding-left: 5px;">
+                    <span class="fa fa-bookmark-o col-xs-5"></span>
+                    <span class="detail">125</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row item-col" ng-repeat="value in subCategory.articles">
+        <div class="col-xs-5" style="padding-left: 0; padding-right: 0">
+            <img class="item-img" src="images/image_5.jpg" alt="...">
+        </div>
+        <div class="col-xs-7" style="padding-right: 0; padding-left: 10px;">
+            <div class="caption">
+                <h2>5 Tipps sich selbst zum Sport z motivier...</h2>
+                <p>Einge gute Word-Life-Balance ist offtenbar gar nicht so eninfach ...</p>
+            </div>
+            <div class="col-xs-12" style="padding: 0">
+                <div class="row info">
+                    <div class="col-xs-4" style="padding-right: 5px; padding-left: 15px;">
+                        <span class="fa fa-comment-o col-xs-5"></span>
+                        <span class="detail">24</span>
+                    </div>
+                    <div class="col-xs-8" style="padding-right: 0">
+                        <span class="fa fa-clock-o col-xs-5"></span>
+                        <span class="detail">17.03.2018</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="libs/angular.min.js"></script>
+<script type="text/javascript" src="libs/angular-cookies.js"></script>
+<script type="text/javascript" src="js/newsfeed5.js"></script>
+</body>
+</html>
