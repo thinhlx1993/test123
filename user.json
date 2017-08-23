@@ -1,0 +1,479 @@
+{ 
+    "_id" : "59901d98a2fa1027883fb909", 
+    "id" : NumberInt(25), 
+    "name" : "Tobias", 
+    "lname" : "Herrmann", 
+    "bday" : null, 
+    "about" : "Alles wird gut", 
+    "image" : "userImg_556cc17e2bfef.jpg", 
+    "verified" : NumberInt(1487934955), 
+    "height" : "177", 
+    "weight" : "80Gut, ich habe Dein Gewicht von 80 kg gespeichert.Darf ich Deinen BMI erreichen?", 
+    "temp_location" : "Hanoi"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb90a", 
+    "id" : NumberInt(46), 
+    "name" : "Alexander", 
+    "lname" : "Fuchs", 
+    "bday" : null, 
+    "about" : "Hi!", 
+    "image" : "", 
+    "verified" : NumberInt(1491296458), 
+    "temp_location" : "Hanoi", 
+    "height" : "170", 
+    "weight" : "60"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb90b", 
+    "id" : NumberInt(69), 
+    "name" : "Alex", 
+    "lname" : "Fuchs", 
+    "bday" : null, 
+    "about" : "", 
+    "image" : "", 
+    "verified" : NumberInt(1488217340), 
+    "temp_location" : "Unterhaching", 
+    "height" : "180", 
+    "weight" : "80"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb90c", 
+    "id" : NumberInt(165), 
+    "name" : "Whitney Olivia", 
+    "lname" : "Johnson", 
+    "bday" : null, 
+    "about" : "IIK ✌", 
+    "image" : "user_avatar-1484126725.23838.jpg", 
+    "verified" : NumberInt(1488280400), 
+    "temp_location" : "Unterhaching", 
+    "height" : "", 
+    "weight" : ""
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb90d", 
+    "id" : NumberInt(275), 
+    "name" : "Yannic", 
+    "lname" : "Tremmel", 
+    "bday" : null, 
+    "about" : "Hi", 
+    "image" : "user_avatar-1489045131.0055.jpg", 
+    "verified" : NumberInt(1489559937), 
+    "temp_location" : "Unterhaching", 
+    "height" : "190", 
+    "weight" : "80"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb90e", 
+    "id" : NumberInt(281), 
+    "name" : "Jessica", 
+    "lname" : "Rohrmoser", 
+    "bday" : null, 
+    "about" : "Test", 
+    "image" : "user_avatar-1489073020.00622.jpg", 
+    "verified" : NumberInt(1491215706), 
+    "temp_location" : "Unterhaching", 
+    "height" : "", 
+    "weight" : ""
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb90f", 
+    "id" : NumberInt(326), 
+    "name" : "Manuel", 
+    "lname" : "Baldan", 
+    "bday" : null, 
+    "about" : "Vita", 
+    "image" : "user_avatar-1491484793.89122.jpg", 
+    "verified" : NumberInt(1491485351), 
+    "temp_location" : "Unterhaching"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb910", 
+    "id" : NumberInt(378), 
+    "name" : "John", 
+    "lname" : "Doe", 
+    "bday" : null, 
+    "about" : "Health Coach Test", 
+    "image" : "user_avatar-1497876604.60637.jpg", 
+    "verified" : NumberInt(2), 
+    "temp_location" : "Hanoi"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb911", 
+    "id" : NumberInt(379), 
+    "name" : "Timotheus", 
+    "lname" : "Laubengaier", 
+    "bday" : null, 
+    "about" : "Test", 
+    "image" : "user_avatar-1497880924.09366.jpg", 
+    "verified" : NumberInt(1497964058), 
+    "temp_location" : "Stuttgart"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb912", 
+    "id" : NumberInt(380), 
+    "name" : "Test", 
+    "lname" : "Bra", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1498160480.17284.jpg", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Bonn", 
+    "height" : "170", 
+    "weight" : "800"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb913", 
+    "id" : NumberInt(381), 
+    "name" : "Health", 
+    "lname" : "Man", 
+    "bday" : null, 
+    "about" : "Vcydgc", 
+    "image" : "user_avatar-1499305560.58874.jpg", 
+    "verified" : NumberInt(2), 
+    "temp_location" : "Bonn"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb914", 
+    "id" : NumberInt(382), 
+    "name" : "Hans", 
+    "lname" : "Müller", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1499458712.45317.jpg", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Unterhaching", 
+    "height" : "120", 
+    "weight" : "300Gut, ich habe Dein Gewicht von 300 kg gespeichert.Wie wäre es, wenn ich Deinen BMI errechnen?"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb915", 
+    "id" : NumberInt(383), 
+    "name" : "Cornelia", 
+    "lname" : "Gutmann", 
+    "bday" : null, 
+    "about" : "Hallo ✌ ", 
+    "image" : "user_avatar-1499696357.93419.jpg", 
+    "verified" : NumberInt(1501847706), 
+    "temp_location" : "Hanoi"
+}
+{ 
+    "_id" : "59901d98a2fa1027883fb916", 
+    "id" : NumberInt(384), 
+    "name" : "Tobias", 
+    "lname" : "Herrmann", 
+    "bday" : null, 
+    "about" : "Das ist ein Test ", 
+    "image" : "user_avatar-1499751324.91868.jpg", 
+    "verified" : NumberInt(2), 
+    "temp_location" : "Unterhaching", 
+    "height" : "170", 
+    "weight" : "80"
+}
+{ 
+    "_id" : "59902a74a2fa1015b4e58374", 
+    "id" : NumberInt(382), 
+    "name" : "Hans", 
+    "lname" : "Müller", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1499458712.45317.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a74a2fa102d103b0a2b", 
+    "id" : NumberInt(386), 
+    "name" : "cornelia", 
+    "lname" : "gutmann", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501690743.79277.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a75a2fa1015b4e58375", 
+    "id" : NumberInt(383), 
+    "name" : "Cornelia", 
+    "lname" : "Gutmann", 
+    "bday" : null, 
+    "about" : "Hallo ✌ ", 
+    "image" : "user_avatar-1499696357.93419.jpg", 
+    "verified" : NumberInt(1501847706)
+}
+{ 
+    "_id" : "59902a75a2fa102d103b0a2c", 
+    "id" : NumberInt(387), 
+    "name" : "cornelia", 
+    "lname" : "gutmann", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501768275.06364.jpg", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Hanoi"
+}
+{ 
+    "_id" : "59902a75a2fa1015b4e58376", 
+    "id" : NumberInt(384), 
+    "name" : "Tobias", 
+    "lname" : "Herrmann", 
+    "bday" : null, 
+    "about" : "Das ist ein Test ", 
+    "image" : "user_avatar-1499751324.91868.jpg", 
+    "verified" : NumberInt(2)
+}
+{ 
+    "_id" : "59902a75a2fa102d103b0a2d", 
+    "id" : NumberInt(388), 
+    "name" : "tester", 
+    "lname" : "tester", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501853237.57817.jpg", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Hanoi"
+}
+{ 
+    "_id" : "59902a76a2fa1015b4e58377", 
+    "id" : NumberInt(385), 
+    "name" : "Ricardo", 
+    "lname" : "Gantschnigg", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501532531.52519.jpg", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Rheinbach"
+}
+{ 
+    "_id" : "59902a76a2fa102d103b0a2e", 
+    "id" : NumberInt(389), 
+    "name" : "assdfasd", 
+    "lname" : "asdfasdf", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501955228.14554.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a76a2fa1015b4e58378", 
+    "id" : NumberInt(386), 
+    "name" : "cornelia", 
+    "lname" : "gutmann", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501690743.79277.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a77a2fa102d103b0a2f", 
+    "id" : NumberInt(390), 
+    "name" : "Test", 
+    "lname" : "User1", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a77a2fa1015b4e58379", 
+    "id" : NumberInt(387), 
+    "name" : "cornelia", 
+    "lname" : "gutmann", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501768275.06364.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a77a2fa102d103b0a30", 
+    "id" : NumberInt(391), 
+    "name" : "Test", 
+    "lname" : "User2", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a78a2fa1015b4e5837a", 
+    "id" : NumberInt(388), 
+    "name" : "tester", 
+    "lname" : "tester", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501853237.57817.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a78a2fa102d103b0a31", 
+    "id" : NumberInt(392), 
+    "name" : "Test", 
+    "lname" : "User3", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Rheinbreitbach", 
+    "height" : "120", 
+    "weight" : "80"
+}
+{ 
+    "_id" : "59902a78a2fa1015b4e5837b", 
+    "id" : NumberInt(389), 
+    "name" : "assdfasd", 
+    "lname" : "asdfasdf", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1501955228.14554.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a78a2fa102d103b0a32", 
+    "id" : NumberInt(393), 
+    "name" : "Test", 
+    "lname" : "User4", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a79a2fa1015b4e5837c", 
+    "id" : NumberInt(390), 
+    "name" : "Test", 
+    "lname" : "User1", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a79a2fa102d103b0a33", 
+    "id" : NumberInt(394), 
+    "name" : "Test", 
+    "lname" : "User5", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0), 
+    "temp_location" : "Oberschleissheim"
+}
+{ 
+    "_id" : "59902a79a2fa1015b4e5837d", 
+    "id" : NumberInt(391), 
+    "name" : "Test", 
+    "lname" : "User2", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a7aa2fa1015b4e5837e", 
+    "id" : NumberInt(392), 
+    "name" : "Test", 
+    "lname" : "User3", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a7aa2fa1015b4e5837f", 
+    "id" : NumberInt(393), 
+    "name" : "Test", 
+    "lname" : "User4", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59902a7ba2fa1015b4e58380", 
+    "id" : NumberInt(394), 
+    "name" : "Test", 
+    "lname" : "User5", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "599186dca5cbd4708d3fcb11", 
+    "name" : "Tobias", 
+    "image" : "user_avatar-1502645524.82248.jpg", 
+    "lname" : "Müller", 
+    "id" : NumberInt(395), 
+    "verified" : NumberInt(2), 
+    "bday" : null, 
+    "about" : "Test"
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101cdc", 
+    "id" : NumberInt(396), 
+    "name" : "", 
+    "lname" : "", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : null, 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101cdd", 
+    "id" : NumberInt(397), 
+    "name" : "Test", 
+    "lname" : "test", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1502792514.71026.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101cde", 
+    "id" : NumberInt(398), 
+    "name" : "Hans", 
+    "lname" : "Müller", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1502792600.91546.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101cdf", 
+    "id" : NumberInt(399), 
+    "name" : "Ajskdfl", 
+    "lname" : "asdkfjl", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1502804550.59915.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101ce0", 
+    "id" : NumberInt(400), 
+    "name" : "Yannico", 
+    "lname" : "popov", 
+    "bday" : null, 
+    "about" : "Hallo ", 
+    "image" : "user_avatar-1502863084.39912.jpg", 
+    "verified" : NumberInt(2)
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101ce1", 
+    "id" : NumberInt(401), 
+    "name" : "Cornelia", 
+    "lname" : "Gutmann", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : "user_avatar-1502875270.92222.jpg", 
+    "verified" : NumberInt(0)
+}
+{ 
+    "_id" : "59951cc3bc4cc417d0101ce2", 
+    "id" : NumberInt(402), 
+    "name" : "", 
+    "lname" : "", 
+    "bday" : null, 
+    "about" : null, 
+    "image" : null, 
+    "verified" : NumberInt(0)
+}

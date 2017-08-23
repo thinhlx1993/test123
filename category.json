@@ -1,0 +1,1378 @@
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a4f"), 
+    "cat_name" : "ASTHMA", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8da45"), 
+                ObjectId("59984a6929a1e02dafa8e15b"), 
+                ObjectId("59984a6929a1e02dafa8e2f2"), 
+                ObjectId("59984a6a29a1e02dafa8e5b7"), 
+                ObjectId("59984a6a29a1e02dafa8e741"), 
+                ObjectId("59984a6b29a1e02dafa8e84a"), 
+                ObjectId("59984a6b29a1e02dafa8e867"), 
+                ObjectId("59984a6b29a1e02dafa8e906"), 
+                ObjectId("59984a6b29a1e02dafa8e9ca"), 
+                ObjectId("59984a6b29a1e02dafa8e9e2"), 
+                ObjectId("59984a6b29a1e02dafa8eb72"), 
+                ObjectId("59984a6b29a1e02dafa8ebd2"), 
+                ObjectId("59984a6c29a1e02dafa8ee41"), 
+                ObjectId("59984a6c29a1e02dafa8eeae")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "FORSCHER", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8db87"), 
+                ObjectId("59984a6929a1e02dafa8debe"), 
+                ObjectId("59984a6929a1e02dafa8e00d"), 
+                ObjectId("59984a6929a1e02dafa8e0cc"), 
+                ObjectId("59984a6929a1e02dafa8e1e4"), 
+                ObjectId("59984a6929a1e02dafa8e2c6"), 
+                ObjectId("59984a6a29a1e02dafa8e4ed"), 
+                ObjectId("59984a6a29a1e02dafa8e813"), 
+                ObjectId("59984a6b29a1e02dafa8e8ed"), 
+                ObjectId("59984a6b29a1e02dafa8eb08")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "PATIENTEN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dcad"), 
+                ObjectId("59984a6829a1e02dafa8dde8"), 
+                ObjectId("59984a6929a1e02dafa8de99"), 
+                ObjectId("59984a6a29a1e02dafa8e66d"), 
+                ObjectId("59984a6a29a1e02dafa8e809"), 
+                ObjectId("59984a6b29a1e02dafa8ebfd"), 
+                ObjectId("59984a6b29a1e02dafa8ec58"), 
+                ObjectId("59984a6d29a1e02dafa8f65d")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "SCHWANGERSCHAFT", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e173"), 
+                ObjectId("59984a6929a1e02dafa8e2f9"), 
+                ObjectId("59984a6929a1e02dafa8e33b"), 
+                ObjectId("59984a6a29a1e02dafa8e3c6"), 
+                ObjectId("59984a6a29a1e02dafa8e3f7"), 
+                ObjectId("59984a6a29a1e02dafa8e42e"), 
+                ObjectId("59984a6a29a1e02dafa8e747"), 
+                ObjectId("59984a6b29a1e02dafa8e856"), 
+                ObjectId("59984a6b29a1e02dafa8e910"), 
+                ObjectId("59984a6b29a1e02dafa8ecc4")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "VITAMIN", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e489"), 
+                ObjectId("59984a6a29a1e02dafa8e4e0"), 
+                ObjectId("59984a6c29a1e02dafa8ef08"), 
+                ObjectId("59984a6d29a1e02dafa8f7c7")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a50"), 
+    "cat_name" : "MIGRÄNE", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "FRAUEN", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8dabf"), 
+                ObjectId("59984a6929a1e02dafa8e262"), 
+                ObjectId("59984a6b29a1e02dafa8ebd8"), 
+                ObjectId("59984a6b29a1e02dafa8ec70")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dd62"), 
+                ObjectId("59984a6929a1e02dafa8df15"), 
+                ObjectId("59984a6929a1e02dafa8e0c3"), 
+                ObjectId("59984a6929a1e02dafa8e1fb"), 
+                ObjectId("59984a6b29a1e02dafa8e851")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "VORBEUGEN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8ddfc"), 
+                ObjectId("59984a6929a1e02dafa8e289"), 
+                ObjectId("59984a6929a1e02dafa8e30c"), 
+                ObjectId("59984a6a29a1e02dafa8e786")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "MIGRÄNEATTACKEN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e08f"), 
+                ObjectId("59984a6b29a1e02dafa8e9fa"), 
+                ObjectId("59984a6b29a1e02dafa8e9fd"), 
+                ObjectId("59984a6c29a1e02dafa8f1b5")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "SCHMERZEN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e2c0"), 
+                ObjectId("59984a6a29a1e02dafa8e50b")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "RISIKO", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e3ca"), 
+                ObjectId("59984a6a29a1e02dafa8e684"), 
+                ObjectId("59984a6b29a1e02dafa8eaaf")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a51"), 
+    "cat_name" : "DEMENZ", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "RISIKO", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8da93"), 
+                ObjectId("59984a6929a1e02dafa8e04b"), 
+                ObjectId("59984a6a29a1e02dafa8e5dc"), 
+                ObjectId("59984a6b29a1e02dafa8eaae")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ERKLÄRUNG", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dc89"), 
+                ObjectId("59984a6a29a1e02dafa8e465"), 
+                ObjectId("59984a6b29a1e02dafa8ed34"), 
+                ObjectId("59984a6c29a1e02dafa8edd0"), 
+                ObjectId("59984a6c29a1e02dafa8ee3f")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "PATIENTEN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8def6"), 
+                ObjectId("59984a6929a1e02dafa8df5b"), 
+                ObjectId("59984a6a29a1e02dafa8e449"), 
+                ObjectId("59984a6a29a1e02dafa8e71a"), 
+                ObjectId("59984a6b29a1e02dafa8eb39")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e067"), 
+                ObjectId("59984a6929a1e02dafa8e07c"), 
+                ObjectId("59984a6929a1e02dafa8e265"), 
+                ObjectId("59984a6a29a1e02dafa8e3d1"), 
+                ObjectId("59984a6a29a1e02dafa8e5b8"), 
+                ObjectId("59984a6a29a1e02dafa8e6e2"), 
+                ObjectId("59984a6b29a1e02dafa8e89d")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a53"), 
+    "cat_name" : "VERHÜTUNG", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "RATTEN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8df65"), 
+                ObjectId("59984a6a29a1e02dafa8e498"), 
+                ObjectId("59984a6a29a1e02dafa8e7a1"), 
+                ObjectId("59984a6b29a1e02dafa8e858"), 
+                ObjectId("59984a6c29a1e02dafa8ef24")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "PILLE", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e1dd"), 
+                ObjectId("59984a6a29a1e02dafa8e3a6"), 
+                ObjectId("59984a6a29a1e02dafa8e410"), 
+                ObjectId("59984a6e29a1e02dafa8f933")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e7d1"), 
+                ObjectId("59984a6b29a1e02dafa8ea6a"), 
+                ObjectId("59984a6c29a1e02dafa8f21d"), 
+                ObjectId("59984a6d29a1e02dafa8f5be"), 
+                ObjectId("59984a6d29a1e02dafa8f84d"), 
+                ObjectId("59984a6e29a1e02dafa8fa6d")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "DIAPHRAGMA", 
+            "articles" : [
+                ObjectId("59984a6c29a1e02dafa8efa6"), 
+                ObjectId("59984a6c29a1e02dafa8f234"), 
+                ObjectId("59984a6d29a1e02dafa8f6e4"), 
+                ObjectId("59984a6e29a1e02dafa8f880"), 
+                ObjectId("59984a6e29a1e02dafa8fac5")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "FRAU", 
+            "articles" : [
+                ObjectId("59984a6c29a1e02dafa8f07d"), 
+                ObjectId("59984a6c29a1e02dafa8f114"), 
+                ObjectId("59984a6e29a1e02dafa8f88e")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "STERILISATION", 
+            "articles" : [
+                ObjectId("59984a6d29a1e02dafa8f613"), 
+                ObjectId("59984a6d29a1e02dafa8f774")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a54"), 
+    "cat_name" : "RHEUMA", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "RISIKO", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8db54"), 
+                ObjectId("59984a6929a1e02dafa8df6e"), 
+                ObjectId("59984a6a29a1e02dafa8e41c"), 
+                ObjectId("59984a6b29a1e02dafa8e837"), 
+                ObjectId("59984a6b29a1e02dafa8ed1a")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "APOTHEKEN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dc2f"), 
+                ObjectId("59984a6929a1e02dafa8e1f1"), 
+                ObjectId("59984a6a29a1e02dafa8e58f"), 
+                ObjectId("59984a6c29a1e02dafa8edc7"), 
+                ObjectId("59984a6d29a1e02dafa8f6d1"), 
+                ObjectId("59984a6e29a1e02dafa8f8e9")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dc39"), 
+                ObjectId("59984a6929a1e02dafa8e1d9"), 
+                ObjectId("59984a6a29a1e02dafa8e450"), 
+                ObjectId("59984a6c29a1e02dafa8f0a9"), 
+                ObjectId("59984a6c29a1e02dafa8f202"), 
+                ObjectId("59984a6d29a1e02dafa8f44d")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "WARNEN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e26e"), 
+                ObjectId("59984a6b29a1e02dafa8eaaa"), 
+                ObjectId("59984a6c29a1e02dafa8edf7"), 
+                ObjectId("59984a6c29a1e02dafa8ef62")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ARTHRITIS", 
+            "articles" : [
+                ObjectId("59984a6c29a1e02dafa8f065"), 
+                ObjectId("59984a6c29a1e02dafa8f208"), 
+                ObjectId("59984a6c29a1e02dafa8f2d5"), 
+                ObjectId("59984a6d29a1e02dafa8f7ed"), 
+                ObjectId("59984a6d29a1e02dafa8f84c")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a55"), 
+    "cat_name" : "BURNOUT", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ERKRANKUNGEN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e0f6"), 
+                ObjectId("59984a6b29a1e02dafa8eb7d")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e603")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a56"), 
+    "cat_name" : "KINDERWUNSCH", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "FORSCHER", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e370"), 
+                ObjectId("59984a6b29a1e02dafa8eaf8")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "RISIKO", 
+            "articles" : [
+                ObjectId("59984a6c29a1e02dafa8eee3"), 
+                ObjectId("59984a6c29a1e02dafa8ef5c")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a58"), 
+    "cat_name" : "ERNÄHRUNG", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dd84"), 
+                ObjectId("59984a6929a1e02dafa8dee3"), 
+                ObjectId("59984a6929a1e02dafa8e32c"), 
+                ObjectId("59984a6a29a1e02dafa8e471"), 
+                ObjectId("59984a6a29a1e02dafa8e5d2"), 
+                ObjectId("59984a6b29a1e02dafa8ea16"), 
+                ObjectId("59984a6b29a1e02dafa8ea4f"), 
+                ObjectId("59984a6b29a1e02dafa8eaee"), 
+                ObjectId("59984a6b29a1e02dafa8ebda"), 
+                ObjectId("59984a6b29a1e02dafa8ec22"), 
+                ObjectId("59984a6b29a1e02dafa8ed6f"), 
+                ObjectId("59984a6c29a1e02dafa8ef1d"), 
+                ObjectId("59984a6c29a1e02dafa8ef65"), 
+                ObjectId("59984a6c29a1e02dafa8ef67"), 
+                ObjectId("59984a6c29a1e02dafa8ef85"), 
+                ObjectId("59984a6c29a1e02dafa8ef93"), 
+                ObjectId("59984a6c29a1e02dafa8efc2"), 
+                ObjectId("59984a6c29a1e02dafa8efd3"), 
+                ObjectId("59984a6c29a1e02dafa8eff0"), 
+                ObjectId("59984a6c29a1e02dafa8f020"), 
+                ObjectId("59984a6c29a1e02dafa8f029"), 
+                ObjectId("59984a6c29a1e02dafa8f032"), 
+                ObjectId("59984a6c29a1e02dafa8f044"), 
+                ObjectId("59984a6c29a1e02dafa8f04a"), 
+                ObjectId("59984a6c29a1e02dafa8f04f"), 
+                ObjectId("59984a6c29a1e02dafa8f068"), 
+                ObjectId("59984a6c29a1e02dafa8f080"), 
+                ObjectId("59984a6c29a1e02dafa8f09d"), 
+                ObjectId("59984a6c29a1e02dafa8f0a7"), 
+                ObjectId("59984a6c29a1e02dafa8f0b3"), 
+                ObjectId("59984a6c29a1e02dafa8f0c0"), 
+                ObjectId("59984a6c29a1e02dafa8f0c8"), 
+                ObjectId("59984a6c29a1e02dafa8f0cb"), 
+                ObjectId("59984a6c29a1e02dafa8f0d9"), 
+                ObjectId("59984a6c29a1e02dafa8f0dd"), 
+                ObjectId("59984a6c29a1e02dafa8f0eb"), 
+                ObjectId("59984a6c29a1e02dafa8f0f0"), 
+                ObjectId("59984a6c29a1e02dafa8f127"), 
+                ObjectId("59984a6c29a1e02dafa8f129"), 
+                ObjectId("59984a6c29a1e02dafa8f145"), 
+                ObjectId("59984a6c29a1e02dafa8f146"), 
+                ObjectId("59984a6c29a1e02dafa8f148"), 
+                ObjectId("59984a6c29a1e02dafa8f159"), 
+                ObjectId("59984a6c29a1e02dafa8f176"), 
+                ObjectId("59984a6c29a1e02dafa8f17f"), 
+                ObjectId("59984a6c29a1e02dafa8f186"), 
+                ObjectId("59984a6c29a1e02dafa8f1a0"), 
+                ObjectId("59984a6c29a1e02dafa8f1bd"), 
+                ObjectId("59984a6c29a1e02dafa8f1d3"), 
+                ObjectId("59984a6c29a1e02dafa8f1d8"), 
+                ObjectId("59984a6c29a1e02dafa8f1dc"), 
+                ObjectId("59984a6c29a1e02dafa8f1e3"), 
+                ObjectId("59984a6c29a1e02dafa8f1f1"), 
+                ObjectId("59984a6c29a1e02dafa8f1f9"), 
+                ObjectId("59984a6c29a1e02dafa8f206"), 
+                ObjectId("59984a6c29a1e02dafa8f22c"), 
+                ObjectId("59984a6c29a1e02dafa8f23c"), 
+                ObjectId("59984a6c29a1e02dafa8f24f"), 
+                ObjectId("59984a6c29a1e02dafa8f272"), 
+                ObjectId("59984a6c29a1e02dafa8f276"), 
+                ObjectId("59984a6c29a1e02dafa8f282"), 
+                ObjectId("59984a6c29a1e02dafa8f29b"), 
+                ObjectId("59984a6c29a1e02dafa8f29c"), 
+                ObjectId("59984a6c29a1e02dafa8f2b0"), 
+                ObjectId("59984a6c29a1e02dafa8f2b6"), 
+                ObjectId("59984a6c29a1e02dafa8f2f5"), 
+                ObjectId("59984a6c29a1e02dafa8f2f7"), 
+                ObjectId("59984a6c29a1e02dafa8f301"), 
+                ObjectId("59984a6d29a1e02dafa8f33c"), 
+                ObjectId("59984a6d29a1e02dafa8f341"), 
+                ObjectId("59984a6d29a1e02dafa8f34a"), 
+                ObjectId("59984a6d29a1e02dafa8f34e"), 
+                ObjectId("59984a6d29a1e02dafa8f35b"), 
+                ObjectId("59984a6d29a1e02dafa8f36c"), 
+                ObjectId("59984a6d29a1e02dafa8f37d"), 
+                ObjectId("59984a6d29a1e02dafa8f396"), 
+                ObjectId("59984a6d29a1e02dafa8f3a9"), 
+                ObjectId("59984a6d29a1e02dafa8f3bd"), 
+                ObjectId("59984a6d29a1e02dafa8f3e4"), 
+                ObjectId("59984a6d29a1e02dafa8f41a"), 
+                ObjectId("59984a6d29a1e02dafa8f42c"), 
+                ObjectId("59984a6d29a1e02dafa8f42d"), 
+                ObjectId("59984a6d29a1e02dafa8f431"), 
+                ObjectId("59984a6d29a1e02dafa8f44c"), 
+                ObjectId("59984a6d29a1e02dafa8f45c"), 
+                ObjectId("59984a6d29a1e02dafa8f45d"), 
+                ObjectId("59984a6d29a1e02dafa8f466"), 
+                ObjectId("59984a6d29a1e02dafa8f476"), 
+                ObjectId("59984a6d29a1e02dafa8f494"), 
+                ObjectId("59984a6d29a1e02dafa8f4bc"), 
+                ObjectId("59984a6d29a1e02dafa8f4c0"), 
+                ObjectId("59984a6d29a1e02dafa8f4c1"), 
+                ObjectId("59984a6d29a1e02dafa8f4c7"), 
+                ObjectId("59984a6d29a1e02dafa8f4ca"), 
+                ObjectId("59984a6d29a1e02dafa8f4ce"), 
+                ObjectId("59984a6d29a1e02dafa8f4e4"), 
+                ObjectId("59984a6d29a1e02dafa8f4ed"), 
+                ObjectId("59984a6d29a1e02dafa8f507"), 
+                ObjectId("59984a6d29a1e02dafa8f51e"), 
+                ObjectId("59984a6d29a1e02dafa8f550"), 
+                ObjectId("59984a6d29a1e02dafa8f565"), 
+                ObjectId("59984a6d29a1e02dafa8f572"), 
+                ObjectId("59984a6d29a1e02dafa8f581"), 
+                ObjectId("59984a6d29a1e02dafa8f591"), 
+                ObjectId("59984a6d29a1e02dafa8f59d"), 
+                ObjectId("59984a6d29a1e02dafa8f5da"), 
+                ObjectId("59984a6d29a1e02dafa8f5dc"), 
+                ObjectId("59984a6d29a1e02dafa8f5f1"), 
+                ObjectId("59984a6d29a1e02dafa8f5f2"), 
+                ObjectId("59984a6d29a1e02dafa8f5f6"), 
+                ObjectId("59984a6d29a1e02dafa8f5fc"), 
+                ObjectId("59984a6d29a1e02dafa8f603"), 
+                ObjectId("59984a6d29a1e02dafa8f606"), 
+                ObjectId("59984a6d29a1e02dafa8f626"), 
+                ObjectId("59984a6d29a1e02dafa8f63c"), 
+                ObjectId("59984a6d29a1e02dafa8f654"), 
+                ObjectId("59984a6d29a1e02dafa8f664"), 
+                ObjectId("59984a6d29a1e02dafa8f66c"), 
+                ObjectId("59984a6d29a1e02dafa8f684"), 
+                ObjectId("59984a6d29a1e02dafa8f694"), 
+                ObjectId("59984a6d29a1e02dafa8f698"), 
+                ObjectId("59984a6d29a1e02dafa8f6a5"), 
+                ObjectId("59984a6d29a1e02dafa8f6b2"), 
+                ObjectId("59984a6d29a1e02dafa8f6b4"), 
+                ObjectId("59984a6d29a1e02dafa8f6be"), 
+                ObjectId("59984a6d29a1e02dafa8f6c2"), 
+                ObjectId("59984a6d29a1e02dafa8f6d9"), 
+                ObjectId("59984a6d29a1e02dafa8f6e0"), 
+                ObjectId("59984a6d29a1e02dafa8f6f3"), 
+                ObjectId("59984a6d29a1e02dafa8f704"), 
+                ObjectId("59984a6d29a1e02dafa8f708"), 
+                ObjectId("59984a6d29a1e02dafa8f70d"), 
+                ObjectId("59984a6d29a1e02dafa8f720"), 
+                ObjectId("59984a6d29a1e02dafa8f734"), 
+                ObjectId("59984a6d29a1e02dafa8f73c"), 
+                ObjectId("59984a6d29a1e02dafa8f763"), 
+                ObjectId("59984a6d29a1e02dafa8f770"), 
+                ObjectId("59984a6d29a1e02dafa8f77f"), 
+                ObjectId("59984a6d29a1e02dafa8f784"), 
+                ObjectId("59984a6d29a1e02dafa8f785"), 
+                ObjectId("59984a6d29a1e02dafa8f7a4"), 
+                ObjectId("59984a6d29a1e02dafa8f7ff"), 
+                ObjectId("59984a6d29a1e02dafa8f809"), 
+                ObjectId("59984a6d29a1e02dafa8f814"), 
+                ObjectId("59984a6d29a1e02dafa8f830"), 
+                ObjectId("59984a6d29a1e02dafa8f848"), 
+                ObjectId("59984a6d29a1e02dafa8f84a"), 
+                ObjectId("59984a6d29a1e02dafa8f84e"), 
+                ObjectId("59984a6e29a1e02dafa8f898"), 
+                ObjectId("59984a6e29a1e02dafa8f8bc"), 
+                ObjectId("59984a6e29a1e02dafa8f8c1"), 
+                ObjectId("59984a6e29a1e02dafa8f8c7"), 
+                ObjectId("59984a6e29a1e02dafa8f8d2"), 
+                ObjectId("59984a6e29a1e02dafa8f8eb"), 
+                ObjectId("59984a6e29a1e02dafa8f915"), 
+                ObjectId("59984a6e29a1e02dafa8f917"), 
+                ObjectId("59984a6e29a1e02dafa8f93c"), 
+                ObjectId("59984a6e29a1e02dafa8f948"), 
+                ObjectId("59984a6e29a1e02dafa8f950"), 
+                ObjectId("59984a6e29a1e02dafa8f95b"), 
+                ObjectId("59984a6e29a1e02dafa8f95f"), 
+                ObjectId("59984a6e29a1e02dafa8f96a"), 
+                ObjectId("59984a6e29a1e02dafa8f984"), 
+                ObjectId("59984a6e29a1e02dafa8f9a6"), 
+                ObjectId("59984a6e29a1e02dafa8f9bd"), 
+                ObjectId("59984a6e29a1e02dafa8f9c0"), 
+                ObjectId("59984a6e29a1e02dafa8f9f5"), 
+                ObjectId("59984a6e29a1e02dafa8f9f6"), 
+                ObjectId("59984a6e29a1e02dafa8f9fa"), 
+                ObjectId("59984a6e29a1e02dafa8fa26"), 
+                ObjectId("59984a6e29a1e02dafa8fa58"), 
+                ObjectId("59984a6e29a1e02dafa8fa73"), 
+                ObjectId("59984a6e29a1e02dafa8fa78"), 
+                ObjectId("59984a6e29a1e02dafa8faa4"), 
+                ObjectId("59984a6e29a1e02dafa8fad8"), 
+                ObjectId("59984a6e29a1e02dafa8fae5"), 
+                ObjectId("59984a6e29a1e02dafa8faeb"), 
+                ObjectId("59984a6e29a1e02dafa8faf0"), 
+                ObjectId("59984a6e29a1e02dafa8fb04"), 
+                ObjectId("59984a6e29a1e02dafa8fb17"), 
+                ObjectId("59984a6e29a1e02dafa8fb36"), 
+                ObjectId("59984a6e29a1e02dafa8fb47"), 
+                ObjectId("59984a6e29a1e02dafa8fb67"), 
+                ObjectId("59984a6e29a1e02dafa8fb73"), 
+                ObjectId("59984a6e29a1e02dafa8fb8a"), 
+                ObjectId("59984a6e29a1e02dafa8fb8d"), 
+                ObjectId("59984a6e29a1e02dafa8fb92"), 
+                ObjectId("59984a6e29a1e02dafa8fb9f"), 
+                ObjectId("59984a6e29a1e02dafa8fbbe"), 
+                ObjectId("59984a6e29a1e02dafa8fbc4"), 
+                ObjectId("59984a6e29a1e02dafa8fbc9"), 
+                ObjectId("59984a6e29a1e02dafa8fbcc")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "FRÜCHTE", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8deb4"), 
+                ObjectId("59984a6929a1e02dafa8e10c"), 
+                ObjectId("59984a6929a1e02dafa8e1ac"), 
+                ObjectId("59984a6a29a1e02dafa8e3a3"), 
+                ObjectId("59984a6a29a1e02dafa8e441"), 
+                ObjectId("59984a6a29a1e02dafa8e652"), 
+                ObjectId("59984a6b29a1e02dafa8e9b4"), 
+                ObjectId("59984a6b29a1e02dafa8eb0c"), 
+                ObjectId("59984a6b29a1e02dafa8ec35"), 
+                ObjectId("59984a6c29a1e02dafa8ef66"), 
+                ObjectId("59984a6c29a1e02dafa8ef7b"), 
+                ObjectId("59984a6c29a1e02dafa8ef82"), 
+                ObjectId("59984a6c29a1e02dafa8efa0"), 
+                ObjectId("59984a6c29a1e02dafa8efbc"), 
+                ObjectId("59984a6c29a1e02dafa8f01c"), 
+                ObjectId("59984a6c29a1e02dafa8f05d"), 
+                ObjectId("59984a6c29a1e02dafa8f061"), 
+                ObjectId("59984a6c29a1e02dafa8f066"), 
+                ObjectId("59984a6c29a1e02dafa8f070"), 
+                ObjectId("59984a6c29a1e02dafa8f0aa"), 
+                ObjectId("59984a6c29a1e02dafa8f0ba"), 
+                ObjectId("59984a6c29a1e02dafa8f0c2"), 
+                ObjectId("59984a6c29a1e02dafa8f0fa"), 
+                ObjectId("59984a6c29a1e02dafa8f0ff"), 
+                ObjectId("59984a6c29a1e02dafa8f100"), 
+                ObjectId("59984a6c29a1e02dafa8f10c"), 
+                ObjectId("59984a6c29a1e02dafa8f10f"), 
+                ObjectId("59984a6c29a1e02dafa8f119"), 
+                ObjectId("59984a6c29a1e02dafa8f12a"), 
+                ObjectId("59984a6c29a1e02dafa8f14a"), 
+                ObjectId("59984a6c29a1e02dafa8f157"), 
+                ObjectId("59984a6c29a1e02dafa8f1d5"), 
+                ObjectId("59984a6c29a1e02dafa8f1ec"), 
+                ObjectId("59984a6c29a1e02dafa8f201"), 
+                ObjectId("59984a6c29a1e02dafa8f204"), 
+                ObjectId("59984a6c29a1e02dafa8f228"), 
+                ObjectId("59984a6c29a1e02dafa8f231"), 
+                ObjectId("59984a6c29a1e02dafa8f237"), 
+                ObjectId("59984a6c29a1e02dafa8f255"), 
+                ObjectId("59984a6c29a1e02dafa8f257"), 
+                ObjectId("59984a6c29a1e02dafa8f25c"), 
+                ObjectId("59984a6c29a1e02dafa8f26e"), 
+                ObjectId("59984a6c29a1e02dafa8f277"), 
+                ObjectId("59984a6c29a1e02dafa8f27b"), 
+                ObjectId("59984a6c29a1e02dafa8f28c"), 
+                ObjectId("59984a6c29a1e02dafa8f293"), 
+                ObjectId("59984a6c29a1e02dafa8f2c3"), 
+                ObjectId("59984a6c29a1e02dafa8f2d0"), 
+                ObjectId("59984a6c29a1e02dafa8f2d3"), 
+                ObjectId("59984a6c29a1e02dafa8f2dc"), 
+                ObjectId("59984a6c29a1e02dafa8f2de"), 
+                ObjectId("59984a6c29a1e02dafa8f2ea"), 
+                ObjectId("59984a6c29a1e02dafa8f2eb"), 
+                ObjectId("59984a6c29a1e02dafa8f2ee"), 
+                ObjectId("59984a6c29a1e02dafa8f2f4"), 
+                ObjectId("59984a6c29a1e02dafa8f307"), 
+                ObjectId("59984a6d29a1e02dafa8f310"), 
+                ObjectId("59984a6d29a1e02dafa8f311"), 
+                ObjectId("59984a6d29a1e02dafa8f347"), 
+                ObjectId("59984a6d29a1e02dafa8f357"), 
+                ObjectId("59984a6d29a1e02dafa8f383"), 
+                ObjectId("59984a6d29a1e02dafa8f38e"), 
+                ObjectId("59984a6d29a1e02dafa8f395"), 
+                ObjectId("59984a6d29a1e02dafa8f39b"), 
+                ObjectId("59984a6d29a1e02dafa8f3ac"), 
+                ObjectId("59984a6d29a1e02dafa8f3c8"), 
+                ObjectId("59984a6d29a1e02dafa8f41e"), 
+                ObjectId("59984a6d29a1e02dafa8f423"), 
+                ObjectId("59984a6d29a1e02dafa8f446"), 
+                ObjectId("59984a6d29a1e02dafa8f462"), 
+                ObjectId("59984a6d29a1e02dafa8f46a"), 
+                ObjectId("59984a6d29a1e02dafa8f47e"), 
+                ObjectId("59984a6d29a1e02dafa8f481"), 
+                ObjectId("59984a6d29a1e02dafa8f496"), 
+                ObjectId("59984a6d29a1e02dafa8f49e"), 
+                ObjectId("59984a6d29a1e02dafa8f4a1"), 
+                ObjectId("59984a6d29a1e02dafa8f4a5"), 
+                ObjectId("59984a6d29a1e02dafa8f4e6"), 
+                ObjectId("59984a6d29a1e02dafa8f4fb"), 
+                ObjectId("59984a6d29a1e02dafa8f502"), 
+                ObjectId("59984a6d29a1e02dafa8f516"), 
+                ObjectId("59984a6d29a1e02dafa8f52a"), 
+                ObjectId("59984a6d29a1e02dafa8f54b"), 
+                ObjectId("59984a6d29a1e02dafa8f57a"), 
+                ObjectId("59984a6d29a1e02dafa8f593"), 
+                ObjectId("59984a6d29a1e02dafa8f5d0"), 
+                ObjectId("59984a6d29a1e02dafa8f5fa"), 
+                ObjectId("59984a6d29a1e02dafa8f61e"), 
+                ObjectId("59984a6d29a1e02dafa8f630"), 
+                ObjectId("59984a6d29a1e02dafa8f63d"), 
+                ObjectId("59984a6d29a1e02dafa8f646"), 
+                ObjectId("59984a6d29a1e02dafa8f64e"), 
+                ObjectId("59984a6d29a1e02dafa8f64f"), 
+                ObjectId("59984a6d29a1e02dafa8f665"), 
+                ObjectId("59984a6d29a1e02dafa8f666"), 
+                ObjectId("59984a6d29a1e02dafa8f669"), 
+                ObjectId("59984a6d29a1e02dafa8f696"), 
+                ObjectId("59984a6d29a1e02dafa8f6a8"), 
+                ObjectId("59984a6d29a1e02dafa8f6bf"), 
+                ObjectId("59984a6d29a1e02dafa8f6c1"), 
+                ObjectId("59984a6d29a1e02dafa8f6c3"), 
+                ObjectId("59984a6d29a1e02dafa8f6de"), 
+                ObjectId("59984a6d29a1e02dafa8f6f1"), 
+                ObjectId("59984a6d29a1e02dafa8f6fc"), 
+                ObjectId("59984a6d29a1e02dafa8f721"), 
+                ObjectId("59984a6d29a1e02dafa8f725"), 
+                ObjectId("59984a6d29a1e02dafa8f72a"), 
+                ObjectId("59984a6d29a1e02dafa8f764"), 
+                ObjectId("59984a6d29a1e02dafa8f765"), 
+                ObjectId("59984a6d29a1e02dafa8f766"), 
+                ObjectId("59984a6d29a1e02dafa8f7a7"), 
+                ObjectId("59984a6d29a1e02dafa8f7b4"), 
+                ObjectId("59984a6d29a1e02dafa8f7b5"), 
+                ObjectId("59984a6d29a1e02dafa8f7c5"), 
+                ObjectId("59984a6d29a1e02dafa8f7d1"), 
+                ObjectId("59984a6d29a1e02dafa8f816"), 
+                ObjectId("59984a6d29a1e02dafa8f83f"), 
+                ObjectId("59984a6e29a1e02dafa8f88c"), 
+                ObjectId("59984a6e29a1e02dafa8f8aa"), 
+                ObjectId("59984a6e29a1e02dafa8f8b9"), 
+                ObjectId("59984a6e29a1e02dafa8f8c5"), 
+                ObjectId("59984a6e29a1e02dafa8f8e3"), 
+                ObjectId("59984a6e29a1e02dafa8f918"), 
+                ObjectId("59984a6e29a1e02dafa8f947"), 
+                ObjectId("59984a6e29a1e02dafa8f94f"), 
+                ObjectId("59984a6e29a1e02dafa8f96d"), 
+                ObjectId("59984a6e29a1e02dafa8f97a"), 
+                ObjectId("59984a6e29a1e02dafa8f985"), 
+                ObjectId("59984a6e29a1e02dafa8f996"), 
+                ObjectId("59984a6e29a1e02dafa8f9b3"), 
+                ObjectId("59984a6e29a1e02dafa8f9cc"), 
+                ObjectId("59984a6e29a1e02dafa8f9e0"), 
+                ObjectId("59984a6e29a1e02dafa8f9e1"), 
+                ObjectId("59984a6e29a1e02dafa8f9fe"), 
+                ObjectId("59984a6e29a1e02dafa8fa1e"), 
+                ObjectId("59984a6e29a1e02dafa8fa66"), 
+                ObjectId("59984a6e29a1e02dafa8fa74"), 
+                ObjectId("59984a6e29a1e02dafa8fa79"), 
+                ObjectId("59984a6e29a1e02dafa8fa94"), 
+                ObjectId("59984a6e29a1e02dafa8fac1"), 
+                ObjectId("59984a6e29a1e02dafa8faca"), 
+                ObjectId("59984a6e29a1e02dafa8fade"), 
+                ObjectId("59984a6e29a1e02dafa8faed"), 
+                ObjectId("59984a6e29a1e02dafa8faf5"), 
+                ObjectId("59984a6e29a1e02dafa8fafc"), 
+                ObjectId("59984a6e29a1e02dafa8fafd"), 
+                ObjectId("59984a6e29a1e02dafa8fb0e"), 
+                ObjectId("59984a6e29a1e02dafa8fb2c"), 
+                ObjectId("59984a6e29a1e02dafa8fb30"), 
+                ObjectId("59984a6e29a1e02dafa8fb35"), 
+                ObjectId("59984a6e29a1e02dafa8fb5b"), 
+                ObjectId("59984a6e29a1e02dafa8fb8e"), 
+                ObjectId("59984a6e29a1e02dafa8fb9b"), 
+                ObjectId("59984a6e29a1e02dafa8fbc6")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "VITAMIN", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8dfe9"), 
+                ObjectId("59984a6929a1e02dafa8e077"), 
+                ObjectId("59984a6a29a1e02dafa8e5a9"), 
+                ObjectId("59984a6a29a1e02dafa8e610"), 
+                ObjectId("59984a6a29a1e02dafa8e6ba"), 
+                ObjectId("59984a6a29a1e02dafa8e728"), 
+                ObjectId("59984a6a29a1e02dafa8e819"), 
+                ObjectId("59984a6b29a1e02dafa8e85a"), 
+                ObjectId("59984a6b29a1e02dafa8e89a"), 
+                ObjectId("59984a6b29a1e02dafa8e8f4"), 
+                ObjectId("59984a6b29a1e02dafa8ea9c"), 
+                ObjectId("59984a6b29a1e02dafa8eb2e"), 
+                ObjectId("59984a6b29a1e02dafa8ebf0"), 
+                ObjectId("59984a6b29a1e02dafa8ecc3"), 
+                ObjectId("59984a6b29a1e02dafa8ed25"), 
+                ObjectId("59984a6c29a1e02dafa8eed3"), 
+                ObjectId("59984a6c29a1e02dafa8ef78"), 
+                ObjectId("59984a6c29a1e02dafa8efb6"), 
+                ObjectId("59984a6c29a1e02dafa8efe3"), 
+                ObjectId("59984a6c29a1e02dafa8efe7"), 
+                ObjectId("59984a6c29a1e02dafa8f08f"), 
+                ObjectId("59984a6c29a1e02dafa8f095"), 
+                ObjectId("59984a6c29a1e02dafa8f099"), 
+                ObjectId("59984a6c29a1e02dafa8f0a2"), 
+                ObjectId("59984a6c29a1e02dafa8f0b0"), 
+                ObjectId("59984a6c29a1e02dafa8f18a"), 
+                ObjectId("59984a6c29a1e02dafa8f1af"), 
+                ObjectId("59984a6c29a1e02dafa8f233"), 
+                ObjectId("59984a6c29a1e02dafa8f235"), 
+                ObjectId("59984a6c29a1e02dafa8f24b"), 
+                ObjectId("59984a6c29a1e02dafa8f24c"), 
+                ObjectId("59984a6c29a1e02dafa8f262"), 
+                ObjectId("59984a6c29a1e02dafa8f26f"), 
+                ObjectId("59984a6c29a1e02dafa8f2aa"), 
+                ObjectId("59984a6c29a1e02dafa8f2ad"), 
+                ObjectId("59984a6c29a1e02dafa8f2cf"), 
+                ObjectId("59984a6c29a1e02dafa8f305"), 
+                ObjectId("59984a6d29a1e02dafa8f349"), 
+                ObjectId("59984a6d29a1e02dafa8f355"), 
+                ObjectId("59984a6d29a1e02dafa8f359"), 
+                ObjectId("59984a6d29a1e02dafa8f366"), 
+                ObjectId("59984a6d29a1e02dafa8f377"), 
+                ObjectId("59984a6d29a1e02dafa8f379"), 
+                ObjectId("59984a6d29a1e02dafa8f38a"), 
+                ObjectId("59984a6d29a1e02dafa8f3dc"), 
+                ObjectId("59984a6d29a1e02dafa8f3ff"), 
+                ObjectId("59984a6d29a1e02dafa8f448"), 
+                ObjectId("59984a6d29a1e02dafa8f4cf"), 
+                ObjectId("59984a6d29a1e02dafa8f52e"), 
+                ObjectId("59984a6d29a1e02dafa8f562"), 
+                ObjectId("59984a6d29a1e02dafa8f57c"), 
+                ObjectId("59984a6d29a1e02dafa8f597"), 
+                ObjectId("59984a6d29a1e02dafa8f5c0"), 
+                ObjectId("59984a6d29a1e02dafa8f5f0"), 
+                ObjectId("59984a6d29a1e02dafa8f628"), 
+                ObjectId("59984a6d29a1e02dafa8f64b"), 
+                ObjectId("59984a6d29a1e02dafa8f695"), 
+                ObjectId("59984a6d29a1e02dafa8f6b7"), 
+                ObjectId("59984a6d29a1e02dafa8f71b"), 
+                ObjectId("59984a6d29a1e02dafa8f74c"), 
+                ObjectId("59984a6d29a1e02dafa8f792"), 
+                ObjectId("59984a6d29a1e02dafa8f794"), 
+                ObjectId("59984a6d29a1e02dafa8f7a5"), 
+                ObjectId("59984a6d29a1e02dafa8f7de"), 
+                ObjectId("59984a6d29a1e02dafa8f7df"), 
+                ObjectId("59984a6d29a1e02dafa8f7f9"), 
+                ObjectId("59984a6d29a1e02dafa8f810"), 
+                ObjectId("59984a6d29a1e02dafa8f842"), 
+                ObjectId("59984a6d29a1e02dafa8f853"), 
+                ObjectId("59984a6e29a1e02dafa8f864"), 
+                ObjectId("59984a6e29a1e02dafa8f8bf"), 
+                ObjectId("59984a6e29a1e02dafa8f8c3"), 
+                ObjectId("59984a6e29a1e02dafa8f8c8"), 
+                ObjectId("59984a6e29a1e02dafa8f8e1"), 
+                ObjectId("59984a6e29a1e02dafa8f8ee"), 
+                ObjectId("59984a6e29a1e02dafa8f8fc"), 
+                ObjectId("59984a6e29a1e02dafa8f937"), 
+                ObjectId("59984a6e29a1e02dafa8f994"), 
+                ObjectId("59984a6e29a1e02dafa8f9d5"), 
+                ObjectId("59984a6e29a1e02dafa8fa15"), 
+                ObjectId("59984a6e29a1e02dafa8fa3b"), 
+                ObjectId("59984a6e29a1e02dafa8fa53"), 
+                ObjectId("59984a6e29a1e02dafa8fa54"), 
+                ObjectId("59984a6e29a1e02dafa8fa95"), 
+                ObjectId("59984a6e29a1e02dafa8faaa"), 
+                ObjectId("59984a6e29a1e02dafa8fb52"), 
+                ObjectId("59984a6e29a1e02dafa8fb5c")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "TEIG", 
+            "articles" : [
+                ObjectId("59984a6c29a1e02dafa8ef98"), 
+                ObjectId("59984a6c29a1e02dafa8ef99"), 
+                ObjectId("59984a6c29a1e02dafa8ef9d"), 
+                ObjectId("59984a6c29a1e02dafa8efb1"), 
+                ObjectId("59984a6c29a1e02dafa8efb3"), 
+                ObjectId("59984a6c29a1e02dafa8efba"), 
+                ObjectId("59984a6c29a1e02dafa8efc5"), 
+                ObjectId("59984a6c29a1e02dafa8efd2"), 
+                ObjectId("59984a6c29a1e02dafa8efed"), 
+                ObjectId("59984a6c29a1e02dafa8eff6"), 
+                ObjectId("59984a6c29a1e02dafa8effd"), 
+                ObjectId("59984a6c29a1e02dafa8f018"), 
+                ObjectId("59984a6c29a1e02dafa8f02d"), 
+                ObjectId("59984a6c29a1e02dafa8f046"), 
+                ObjectId("59984a6c29a1e02dafa8f05c"), 
+                ObjectId("59984a6c29a1e02dafa8f078"), 
+                ObjectId("59984a6c29a1e02dafa8f07e"), 
+                ObjectId("59984a6c29a1e02dafa8f089"), 
+                ObjectId("59984a6c29a1e02dafa8f0af"), 
+                ObjectId("59984a6c29a1e02dafa8f0b4"), 
+                ObjectId("59984a6c29a1e02dafa8f0fb"), 
+                ObjectId("59984a6c29a1e02dafa8f101"), 
+                ObjectId("59984a6c29a1e02dafa8f102"), 
+                ObjectId("59984a6c29a1e02dafa8f12c"), 
+                ObjectId("59984a6c29a1e02dafa8f137"), 
+                ObjectId("59984a6c29a1e02dafa8f17a"), 
+                ObjectId("59984a6c29a1e02dafa8f184"), 
+                ObjectId("59984a6c29a1e02dafa8f195"), 
+                ObjectId("59984a6c29a1e02dafa8f19c"), 
+                ObjectId("59984a6c29a1e02dafa8f1b4"), 
+                ObjectId("59984a6c29a1e02dafa8f1cb"), 
+                ObjectId("59984a6c29a1e02dafa8f1ef"), 
+                ObjectId("59984a6c29a1e02dafa8f1f3"), 
+                ObjectId("59984a6c29a1e02dafa8f20f"), 
+                ObjectId("59984a6c29a1e02dafa8f244"), 
+                ObjectId("59984a6c29a1e02dafa8f25a"), 
+                ObjectId("59984a6c29a1e02dafa8f263"), 
+                ObjectId("59984a6c29a1e02dafa8f267"), 
+                ObjectId("59984a6c29a1e02dafa8f28b"), 
+                ObjectId("59984a6c29a1e02dafa8f292"), 
+                ObjectId("59984a6c29a1e02dafa8f29a"), 
+                ObjectId("59984a6c29a1e02dafa8f2b5"), 
+                ObjectId("59984a6c29a1e02dafa8f2cc"), 
+                ObjectId("59984a6d29a1e02dafa8f313"), 
+                ObjectId("59984a6d29a1e02dafa8f318"), 
+                ObjectId("59984a6d29a1e02dafa8f321"), 
+                ObjectId("59984a6d29a1e02dafa8f337"), 
+                ObjectId("59984a6d29a1e02dafa8f344"), 
+                ObjectId("59984a6d29a1e02dafa8f356"), 
+                ObjectId("59984a6d29a1e02dafa8f35f"), 
+                ObjectId("59984a6d29a1e02dafa8f362"), 
+                ObjectId("59984a6d29a1e02dafa8f36d"), 
+                ObjectId("59984a6d29a1e02dafa8f385"), 
+                ObjectId("59984a6d29a1e02dafa8f389"), 
+                ObjectId("59984a6d29a1e02dafa8f393"), 
+                ObjectId("59984a6d29a1e02dafa8f39e"), 
+                ObjectId("59984a6d29a1e02dafa8f3a2"), 
+                ObjectId("59984a6d29a1e02dafa8f3a7"), 
+                ObjectId("59984a6d29a1e02dafa8f3b3"), 
+                ObjectId("59984a6d29a1e02dafa8f3b4"), 
+                ObjectId("59984a6d29a1e02dafa8f3cf"), 
+                ObjectId("59984a6d29a1e02dafa8f406"), 
+                ObjectId("59984a6d29a1e02dafa8f414"), 
+                ObjectId("59984a6d29a1e02dafa8f425"), 
+                ObjectId("59984a6d29a1e02dafa8f438"), 
+                ObjectId("59984a6d29a1e02dafa8f46b"), 
+                ObjectId("59984a6d29a1e02dafa8f46d"), 
+                ObjectId("59984a6d29a1e02dafa8f482"), 
+                ObjectId("59984a6d29a1e02dafa8f490"), 
+                ObjectId("59984a6d29a1e02dafa8f493"), 
+                ObjectId("59984a6d29a1e02dafa8f4a4"), 
+                ObjectId("59984a6d29a1e02dafa8f4a8"), 
+                ObjectId("59984a6d29a1e02dafa8f4d2"), 
+                ObjectId("59984a6d29a1e02dafa8f4d6"), 
+                ObjectId("59984a6d29a1e02dafa8f4dd"), 
+                ObjectId("59984a6d29a1e02dafa8f4ea"), 
+                ObjectId("59984a6d29a1e02dafa8f4f8"), 
+                ObjectId("59984a6d29a1e02dafa8f514"), 
+                ObjectId("59984a6d29a1e02dafa8f519"), 
+                ObjectId("59984a6d29a1e02dafa8f546"), 
+                ObjectId("59984a6d29a1e02dafa8f549"), 
+                ObjectId("59984a6d29a1e02dafa8f561"), 
+                ObjectId("59984a6d29a1e02dafa8f571"), 
+                ObjectId("59984a6d29a1e02dafa8f57b"), 
+                ObjectId("59984a6d29a1e02dafa8f57e"), 
+                ObjectId("59984a6d29a1e02dafa8f57f"), 
+                ObjectId("59984a6d29a1e02dafa8f58d"), 
+                ObjectId("59984a6d29a1e02dafa8f5ab"), 
+                ObjectId("59984a6d29a1e02dafa8f5bd"), 
+                ObjectId("59984a6d29a1e02dafa8f5d3"), 
+                ObjectId("59984a6d29a1e02dafa8f5f8"), 
+                ObjectId("59984a6d29a1e02dafa8f600"), 
+                ObjectId("59984a6d29a1e02dafa8f612"), 
+                ObjectId("59984a6d29a1e02dafa8f617"), 
+                ObjectId("59984a6d29a1e02dafa8f618"), 
+                ObjectId("59984a6d29a1e02dafa8f62b"), 
+                ObjectId("59984a6d29a1e02dafa8f62d"), 
+                ObjectId("59984a6d29a1e02dafa8f639"), 
+                ObjectId("59984a6d29a1e02dafa8f63a"), 
+                ObjectId("59984a6d29a1e02dafa8f641"), 
+                ObjectId("59984a6d29a1e02dafa8f642"), 
+                ObjectId("59984a6d29a1e02dafa8f66b"), 
+                ObjectId("59984a6d29a1e02dafa8f683"), 
+                ObjectId("59984a6d29a1e02dafa8f69e"), 
+                ObjectId("59984a6d29a1e02dafa8f6c5"), 
+                ObjectId("59984a6d29a1e02dafa8f6c9"), 
+                ObjectId("59984a6d29a1e02dafa8f700"), 
+                ObjectId("59984a6d29a1e02dafa8f714"), 
+                ObjectId("59984a6d29a1e02dafa8f736"), 
+                ObjectId("59984a6d29a1e02dafa8f739"), 
+                ObjectId("59984a6d29a1e02dafa8f740"), 
+                ObjectId("59984a6d29a1e02dafa8f78d"), 
+                ObjectId("59984a6d29a1e02dafa8f78e"), 
+                ObjectId("59984a6d29a1e02dafa8f795"), 
+                ObjectId("59984a6d29a1e02dafa8f7a8"), 
+                ObjectId("59984a6d29a1e02dafa8f7b0"), 
+                ObjectId("59984a6d29a1e02dafa8f7cd"), 
+                ObjectId("59984a6d29a1e02dafa8f7d8"), 
+                ObjectId("59984a6d29a1e02dafa8f7eb"), 
+                ObjectId("59984a6d29a1e02dafa8f7ef"), 
+                ObjectId("59984a6d29a1e02dafa8f7f1"), 
+                ObjectId("59984a6d29a1e02dafa8f7f3"), 
+                ObjectId("59984a6d29a1e02dafa8f7f5"), 
+                ObjectId("59984a6d29a1e02dafa8f7fd"), 
+                ObjectId("59984a6d29a1e02dafa8f801"), 
+                ObjectId("59984a6d29a1e02dafa8f82f"), 
+                ObjectId("59984a6d29a1e02dafa8f847"), 
+                ObjectId("59984a6d29a1e02dafa8f851"), 
+                ObjectId("59984a6e29a1e02dafa8f872"), 
+                ObjectId("59984a6e29a1e02dafa8f873"), 
+                ObjectId("59984a6e29a1e02dafa8f89a"), 
+                ObjectId("59984a6e29a1e02dafa8f8b1"), 
+                ObjectId("59984a6e29a1e02dafa8f8b2"), 
+                ObjectId("59984a6e29a1e02dafa8f8c6"), 
+                ObjectId("59984a6e29a1e02dafa8f8f3"), 
+                ObjectId("59984a6e29a1e02dafa8f8f4"), 
+                ObjectId("59984a6e29a1e02dafa8f93a"), 
+                ObjectId("59984a6e29a1e02dafa8f93e"), 
+                ObjectId("59984a6e29a1e02dafa8f958"), 
+                ObjectId("59984a6e29a1e02dafa8f965"), 
+                ObjectId("59984a6e29a1e02dafa8f967"), 
+                ObjectId("59984a6e29a1e02dafa8f96f"), 
+                ObjectId("59984a6e29a1e02dafa8f993"), 
+                ObjectId("59984a6e29a1e02dafa8f997"), 
+                ObjectId("59984a6e29a1e02dafa8f998"), 
+                ObjectId("59984a6e29a1e02dafa8f9d0"), 
+                ObjectId("59984a6e29a1e02dafa8f9e6"), 
+                ObjectId("59984a6e29a1e02dafa8f9e8"), 
+                ObjectId("59984a6e29a1e02dafa8f9ec"), 
+                ObjectId("59984a6e29a1e02dafa8f9ed"), 
+                ObjectId("59984a6e29a1e02dafa8f9f0"), 
+                ObjectId("59984a6e29a1e02dafa8f9f4"), 
+                ObjectId("59984a6e29a1e02dafa8fa0c"), 
+                ObjectId("59984a6e29a1e02dafa8fa10"), 
+                ObjectId("59984a6e29a1e02dafa8fa1b"), 
+                ObjectId("59984a6e29a1e02dafa8fa33"), 
+                ObjectId("59984a6e29a1e02dafa8fa3a"), 
+                ObjectId("59984a6e29a1e02dafa8fa3c"), 
+                ObjectId("59984a6e29a1e02dafa8fa77"), 
+                ObjectId("59984a6e29a1e02dafa8fae7"), 
+                ObjectId("59984a6e29a1e02dafa8fb12"), 
+                ObjectId("59984a6e29a1e02dafa8fb14"), 
+                ObjectId("59984a6e29a1e02dafa8fb19"), 
+                ObjectId("59984a6e29a1e02dafa8fb48"), 
+                ObjectId("59984a6e29a1e02dafa8fb4e"), 
+                ObjectId("59984a6e29a1e02dafa8fb59"), 
+                ObjectId("59984a6e29a1e02dafa8fb72"), 
+                ObjectId("59984a6e29a1e02dafa8fb7e"), 
+                ObjectId("59984a6e29a1e02dafa8fb81"), 
+                ObjectId("59984a6e29a1e02dafa8fb88"), 
+                ObjectId("59984a6e29a1e02dafa8fbb0"), 
+                ObjectId("59984a6e29a1e02dafa8fbbc"), 
+                ObjectId("59984a6e29a1e02dafa8fbd1")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "WASCHEN", 
+            "articles" : [
+                ObjectId("59984a6c29a1e02dafa8ef9f"), 
+                ObjectId("59984a6c29a1e02dafa8efcb"), 
+                ObjectId("59984a6c29a1e02dafa8efd4"), 
+                ObjectId("59984a6c29a1e02dafa8efde"), 
+                ObjectId("59984a6c29a1e02dafa8eff1"), 
+                ObjectId("59984a6c29a1e02dafa8f016"), 
+                ObjectId("59984a6c29a1e02dafa8f021"), 
+                ObjectId("59984a6c29a1e02dafa8f022"), 
+                ObjectId("59984a6c29a1e02dafa8f042"), 
+                ObjectId("59984a6c29a1e02dafa8f0d1"), 
+                ObjectId("59984a6c29a1e02dafa8f0d3"), 
+                ObjectId("59984a6c29a1e02dafa8f0ef"), 
+                ObjectId("59984a6c29a1e02dafa8f0f6"), 
+                ObjectId("59984a6c29a1e02dafa8f10b"), 
+                ObjectId("59984a6c29a1e02dafa8f110"), 
+                ObjectId("59984a6c29a1e02dafa8f112"), 
+                ObjectId("59984a6c29a1e02dafa8f130"), 
+                ObjectId("59984a6c29a1e02dafa8f133"), 
+                ObjectId("59984a6c29a1e02dafa8f13a"), 
+                ObjectId("59984a6c29a1e02dafa8f13f"), 
+                ObjectId("59984a6c29a1e02dafa8f150"), 
+                ObjectId("59984a6c29a1e02dafa8f15c"), 
+                ObjectId("59984a6c29a1e02dafa8f163"), 
+                ObjectId("59984a6c29a1e02dafa8f18b"), 
+                ObjectId("59984a6c29a1e02dafa8f1df"), 
+                ObjectId("59984a6c29a1e02dafa8f1e5"), 
+                ObjectId("59984a6c29a1e02dafa8f1e7"), 
+                ObjectId("59984a6c29a1e02dafa8f1fe"), 
+                ObjectId("59984a6c29a1e02dafa8f209"), 
+                ObjectId("59984a6c29a1e02dafa8f20a"), 
+                ObjectId("59984a6c29a1e02dafa8f211"), 
+                ObjectId("59984a6c29a1e02dafa8f21b"), 
+                ObjectId("59984a6c29a1e02dafa8f21e"), 
+                ObjectId("59984a6c29a1e02dafa8f236"), 
+                ObjectId("59984a6c29a1e02dafa8f2a3"), 
+                ObjectId("59984a6c29a1e02dafa8f2b9"), 
+                ObjectId("59984a6c29a1e02dafa8f2c2"), 
+                ObjectId("59984a6c29a1e02dafa8f30f"), 
+                ObjectId("59984a6d29a1e02dafa8f348"), 
+                ObjectId("59984a6d29a1e02dafa8f34d"), 
+                ObjectId("59984a6d29a1e02dafa8f37a"), 
+                ObjectId("59984a6d29a1e02dafa8f37c"), 
+                ObjectId("59984a6d29a1e02dafa8f38b"), 
+                ObjectId("59984a6d29a1e02dafa8f3ba"), 
+                ObjectId("59984a6d29a1e02dafa8f3bb"), 
+                ObjectId("59984a6d29a1e02dafa8f3e0"), 
+                ObjectId("59984a6d29a1e02dafa8f3e2"), 
+                ObjectId("59984a6d29a1e02dafa8f3f4"), 
+                ObjectId("59984a6d29a1e02dafa8f41c"), 
+                ObjectId("59984a6d29a1e02dafa8f430"), 
+                ObjectId("59984a6d29a1e02dafa8f461"), 
+                ObjectId("59984a6d29a1e02dafa8f475"), 
+                ObjectId("59984a6d29a1e02dafa8f4b3"), 
+                ObjectId("59984a6d29a1e02dafa8f4d1"), 
+                ObjectId("59984a6d29a1e02dafa8f4e7"), 
+                ObjectId("59984a6d29a1e02dafa8f4f5"), 
+                ObjectId("59984a6d29a1e02dafa8f4f6"), 
+                ObjectId("59984a6d29a1e02dafa8f51a"), 
+                ObjectId("59984a6d29a1e02dafa8f53c"), 
+                ObjectId("59984a6d29a1e02dafa8f553"), 
+                ObjectId("59984a6d29a1e02dafa8f558"), 
+                ObjectId("59984a6d29a1e02dafa8f590"), 
+                ObjectId("59984a6d29a1e02dafa8f59f"), 
+                ObjectId("59984a6d29a1e02dafa8f609"), 
+                ObjectId("59984a6d29a1e02dafa8f60f"), 
+                ObjectId("59984a6d29a1e02dafa8f636"), 
+                ObjectId("59984a6d29a1e02dafa8f648"), 
+                ObjectId("59984a6d29a1e02dafa8f649"), 
+                ObjectId("59984a6d29a1e02dafa8f657"), 
+                ObjectId("59984a6d29a1e02dafa8f66f"), 
+                ObjectId("59984a6d29a1e02dafa8f6f2"), 
+                ObjectId("59984a6d29a1e02dafa8f6f8"), 
+                ObjectId("59984a6d29a1e02dafa8f6f9"), 
+                ObjectId("59984a6d29a1e02dafa8f75b"), 
+                ObjectId("59984a6d29a1e02dafa8f760"), 
+                ObjectId("59984a6d29a1e02dafa8f76b"), 
+                ObjectId("59984a6d29a1e02dafa8f78c"), 
+                ObjectId("59984a6d29a1e02dafa8f793"), 
+                ObjectId("59984a6d29a1e02dafa8f7b1"), 
+                ObjectId("59984a6d29a1e02dafa8f7b8"), 
+                ObjectId("59984a6d29a1e02dafa8f7d4"), 
+                ObjectId("59984a6d29a1e02dafa8f7ea"), 
+                ObjectId("59984a6d29a1e02dafa8f7ec"), 
+                ObjectId("59984a6d29a1e02dafa8f80c"), 
+                ObjectId("59984a6d29a1e02dafa8f819"), 
+                ObjectId("59984a6d29a1e02dafa8f81e"), 
+                ObjectId("59984a6d29a1e02dafa8f83a"), 
+                ObjectId("59984a6d29a1e02dafa8f840"), 
+                ObjectId("59984a6e29a1e02dafa8f883"), 
+                ObjectId("59984a6e29a1e02dafa8f890"), 
+                ObjectId("59984a6e29a1e02dafa8f8a5"), 
+                ObjectId("59984a6e29a1e02dafa8f8b3"), 
+                ObjectId("59984a6e29a1e02dafa8f908"), 
+                ObjectId("59984a6e29a1e02dafa8f92c"), 
+                ObjectId("59984a6e29a1e02dafa8f944"), 
+                ObjectId("59984a6e29a1e02dafa8f94c"), 
+                ObjectId("59984a6e29a1e02dafa8f952"), 
+                ObjectId("59984a6e29a1e02dafa8f98b"), 
+                ObjectId("59984a6e29a1e02dafa8f99f"), 
+                ObjectId("59984a6e29a1e02dafa8f9b5"), 
+                ObjectId("59984a6e29a1e02dafa8f9dd"), 
+                ObjectId("59984a6e29a1e02dafa8f9eb"), 
+                ObjectId("59984a6e29a1e02dafa8f9ef"), 
+                ObjectId("59984a6e29a1e02dafa8fa0e"), 
+                ObjectId("59984a6e29a1e02dafa8fa3d"), 
+                ObjectId("59984a6e29a1e02dafa8fa6a"), 
+                ObjectId("59984a6e29a1e02dafa8fa7b"), 
+                ObjectId("59984a6e29a1e02dafa8fa7e"), 
+                ObjectId("59984a6e29a1e02dafa8faa3"), 
+                ObjectId("59984a6e29a1e02dafa8fabc"), 
+                ObjectId("59984a6e29a1e02dafa8fad0"), 
+                ObjectId("59984a6e29a1e02dafa8fad3"), 
+                ObjectId("59984a6e29a1e02dafa8fad6"), 
+                ObjectId("59984a6e29a1e02dafa8fb05"), 
+                ObjectId("59984a6e29a1e02dafa8fb3a"), 
+                ObjectId("59984a6e29a1e02dafa8fb41"), 
+                ObjectId("59984a6e29a1e02dafa8fb43"), 
+                ObjectId("59984a6e29a1e02dafa8fb45"), 
+                ObjectId("59984a6e29a1e02dafa8fb5e"), 
+                ObjectId("59984a6e29a1e02dafa8fb66"), 
+                ObjectId("59984a6e29a1e02dafa8fb6b"), 
+                ObjectId("59984a6e29a1e02dafa8fb6e"), 
+                ObjectId("59984a6e29a1e02dafa8fb78"), 
+                ObjectId("59984a6e29a1e02dafa8fb83"), 
+                ObjectId("59984a6e29a1e02dafa8fbb2"), 
+                ObjectId("59984a6e29a1e02dafa8fbc0"), 
+                ObjectId("59984a6e29a1e02dafa8fbc3"), 
+                ObjectId("59984a6e29a1e02dafa8fbcf")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a59"), 
+    "cat_name" : "DEPRESSION", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8da68"), 
+                ObjectId("59984a6729a1e02dafa8da96"), 
+                ObjectId("59984a6829a1e02dafa8dc03"), 
+                ObjectId("59984a6829a1e02dafa8dd0c"), 
+                ObjectId("59984a6829a1e02dafa8dd38"), 
+                ObjectId("59984a6829a1e02dafa8de24"), 
+                ObjectId("59984a6929a1e02dafa8dedf"), 
+                ObjectId("59984a6929a1e02dafa8e2df"), 
+                ObjectId("59984a6a29a1e02dafa8e3cb"), 
+                ObjectId("59984a6a29a1e02dafa8e5c5"), 
+                ObjectId("59984a6a29a1e02dafa8e705"), 
+                ObjectId("59984a6a29a1e02dafa8e75e"), 
+                ObjectId("59984a6a29a1e02dafa8e7bc"), 
+                ObjectId("59984a6b29a1e02dafa8e9c2"), 
+                ObjectId("59984a6b29a1e02dafa8ed28"), 
+                ObjectId("59984a6b29a1e02dafa8ed7e"), 
+                ObjectId("59984a6c29a1e02dafa8edb7"), 
+                ObjectId("59984a6c29a1e02dafa8edd1"), 
+                ObjectId("59984a6e29a1e02dafa8fa7d")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "FRAUEN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dac0"), 
+                ObjectId("59984a6929a1e02dafa8debb"), 
+                ObjectId("59984a6929a1e02dafa8df27"), 
+                ObjectId("59984a6929a1e02dafa8e28f"), 
+                ObjectId("59984a6929a1e02dafa8e338"), 
+                ObjectId("59984a6a29a1e02dafa8e36a"), 
+                ObjectId("59984a6a29a1e02dafa8e484"), 
+                ObjectId("59984a6b29a1e02dafa8e9c8"), 
+                ObjectId("59984a6b29a1e02dafa8eaa2")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "DEPRESSION", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8db68"), 
+                ObjectId("59984a6829a1e02dafa8ddba"), 
+                ObjectId("59984a6829a1e02dafa8de41"), 
+                ObjectId("59984a6a29a1e02dafa8e528"), 
+                ObjectId("59984a6a29a1e02dafa8e58b"), 
+                ObjectId("59984a6b29a1e02dafa8eab5"), 
+                ObjectId("59984a6b29a1e02dafa8eb78"), 
+                ObjectId("59984a6c29a1e02dafa8f1f5"), 
+                ObjectId("59984a6d29a1e02dafa8f498"), 
+                ObjectId("59984a6e29a1e02dafa8f9cd"), 
+                ObjectId("59984a6e29a1e02dafa8fab0")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "RISIKO", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dcd4"), 
+                ObjectId("59984a6829a1e02dafa8dd34"), 
+                ObjectId("59984a6829a1e02dafa8ddd8"), 
+                ObjectId("59984a6929a1e02dafa8e21e"), 
+                ObjectId("59984a6929a1e02dafa8e2d2"), 
+                ObjectId("59984a6a29a1e02dafa8e45e"), 
+                ObjectId("59984a6a29a1e02dafa8e4a7"), 
+                ObjectId("59984a6a29a1e02dafa8e794"), 
+                ObjectId("59984a6b29a1e02dafa8ead4"), 
+                ObjectId("59984a6b29a1e02dafa8eb31"), 
+                ObjectId("59984a6b29a1e02dafa8eb75")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "APOTHEKEN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dd2c"), 
+                ObjectId("59984a6a29a1e02dafa8e623"), 
+                ObjectId("59984a6b29a1e02dafa8e965"), 
+                ObjectId("59984a6b29a1e02dafa8e97e"), 
+                ObjectId("59984a6b29a1e02dafa8e9a9")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ERKLÄRUNG", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8df18"), 
+                ObjectId("59984a6929a1e02dafa8e016"), 
+                ObjectId("59984a6929a1e02dafa8e038"), 
+                ObjectId("59984a6929a1e02dafa8e083"), 
+                ObjectId("59984a6929a1e02dafa8e0ba"), 
+                ObjectId("59984a6929a1e02dafa8e121"), 
+                ObjectId("59984a6929a1e02dafa8e128"), 
+                ObjectId("59984a6929a1e02dafa8e148"), 
+                ObjectId("59984a6929a1e02dafa8e1da"), 
+                ObjectId("59984a6a29a1e02dafa8e53c"), 
+                ObjectId("59984a6b29a1e02dafa8e8f7"), 
+                ObjectId("59984a6b29a1e02dafa8ebdf"), 
+                ObjectId("59984a6e29a1e02dafa8fac0")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d41a2fa10209ca56a5a"), 
+    "cat_name" : "ZYKLUS", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "FRAUEN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dd61"), 
+                ObjectId("59984a6929a1e02dafa8e1e2")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "FORSCHER", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8ddd1"), 
+                ObjectId("59984a6929a1e02dafa8e021")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "MENSCHEN", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e5be"), 
+                ObjectId("59984a6b29a1e02dafa8eb26")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d42a2fa10209ca56a5b"), 
+    "cat_name" : "ERKÄLTUNG", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8da23"), 
+                ObjectId("59984a6729a1e02dafa8da2f"), 
+                ObjectId("59984a6729a1e02dafa8da37"), 
+                ObjectId("59984a6829a1e02dafa8dd2a"), 
+                ObjectId("59984a6929a1e02dafa8e254"), 
+                ObjectId("59984a6929a1e02dafa8e328"), 
+                ObjectId("59984a6a29a1e02dafa8e4f1"), 
+                ObjectId("59984a6b29a1e02dafa8eb5c"), 
+                ObjectId("59984a6b29a1e02dafa8ebf7"), 
+                ObjectId("59984a6c29a1e02dafa8ee38"), 
+                ObjectId("59984a6c29a1e02dafa8eeeb"), 
+                ObjectId("59984a6d29a1e02dafa8f511"), 
+                ObjectId("59984a6d29a1e02dafa8f83c"), 
+                ObjectId("59984a6e29a1e02dafa8f8ac"), 
+                ObjectId("59984a6e29a1e02dafa8f93d"), 
+                ObjectId("59984a6e29a1e02dafa8fa50"), 
+                ObjectId("59984a6e29a1e02dafa8fb51")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "APOTHEKEN", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8da51"), 
+                ObjectId("59984a6a29a1e02dafa8e5a2"), 
+                ObjectId("59984a6a29a1e02dafa8e7f0"), 
+                ObjectId("59984a6b29a1e02dafa8e847"), 
+                ObjectId("59984a6b29a1e02dafa8e8e5")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "PROZENT", 
+            "articles" : [
+                ObjectId("59984a6729a1e02dafa8da5b"), 
+                ObjectId("59984a6829a1e02dafa8dc9d"), 
+                ObjectId("59984a6a29a1e02dafa8e56f"), 
+                ObjectId("59984a6b29a1e02dafa8ed10"), 
+                ObjectId("59984a6c29a1e02dafa8edf0")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ERKÄLTUNG", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dc6b"), 
+                ObjectId("59984a6829a1e02dafa8dd5e"), 
+                ObjectId("59984a6829a1e02dafa8de03"), 
+                ObjectId("59984a6a29a1e02dafa8e7f3"), 
+                ObjectId("59984a6b29a1e02dafa8ea41")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "STIMME", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8dfcd"), 
+                ObjectId("59984a6b29a1e02dafa8ecdc"), 
+                ObjectId("59984a6c29a1e02dafa8f15e"), 
+                ObjectId("59984a6c29a1e02dafa8f26d"), 
+                ObjectId("59984a6d29a1e02dafa8f4b1"), 
+                ObjectId("59984a6d29a1e02dafa8f512"), 
+                ObjectId("59984a6d29a1e02dafa8f51f"), 
+                ObjectId("59984a6e29a1e02dafa8fb7b")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ZINK", 
+            "articles" : [
+                ObjectId("59984a6929a1e02dafa8e2d6"), 
+                ObjectId("59984a6a29a1e02dafa8e545"), 
+                ObjectId("59984a6a29a1e02dafa8e5b0"), 
+                ObjectId("59984a6a29a1e02dafa8e5f6"), 
+                ObjectId("59984a6a29a1e02dafa8e6c6"), 
+                ObjectId("59984a6a29a1e02dafa8e82d"), 
+                ObjectId("59984a6b29a1e02dafa8e9fb"), 
+                ObjectId("59984a6b29a1e02dafa8ecc5"), 
+                ObjectId("59984a6c29a1e02dafa8f226")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d42a2fa10209ca56a5c"), 
+    "cat_name" : "FRAUENGESUNDHEIT", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ALLE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e836")
+            ]
+        }
+    ]
+}
+{ 
+    "_id" : ObjectId("599d8d42a2fa10209ca56a5e"), 
+    "cat_name" : "ALLERGIEN", 
+    "image" : "", 
+    "sub_category" : [
+        {
+            "sub_cat_name" : "ANDERE ARTIKEL", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8dce9"), 
+                ObjectId("59984a6929a1e02dafa8e141")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "LEBENSMITTELN", 
+            "articles" : [
+                ObjectId("59984a6829a1e02dafa8ddf8"), 
+                ObjectId("59984a6c29a1e02dafa8ef25")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "ASTHMA", 
+            "articles" : [
+                ObjectId("59984a6a29a1e02dafa8e64b"), 
+                ObjectId("59984a6b29a1e02dafa8eb73")
+            ]
+        }, 
+        {
+            "sub_cat_name" : "SCHWANGERSCHAFT", 
+            "articles" : [
+                ObjectId("59984a6b29a1e02dafa8e911")
+            ]
+        }
+    ]
+}
